@@ -1,0 +1,12 @@
+.next
+node_modules
+*.log
+.DS_Store
+static/styles/app.css
+.idea/
+.env
+.directory
+containers/review/ReviewContainer.js
+.vscode/
+yarn.lock
+.prettierrc

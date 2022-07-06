@@ -1,0 +1,76 @@
+[
+  {
+    "id": 1,
+    "question_type": "boolean",
+    "key": "buyingTurn",
+    "label": "Is this your first time buying a home?",
+    "choices": [
+      {
+        "value": "true",
+        "label": "Yes"
+      },
+      {
+        "value": "false",
+        "label": "No"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question_type": "boolean",
+    "key": "primaryResidence",
+    "label": "Will this be your primary residence?",
+    "choices": [ 
+      {
+        "value": "true",
+        "label": "Yes"
+      },
+      {
+        "value": "false",
+        "label": "No"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question_type": "open",
+    "key": "purchasePrice",
+    "label": "What purchase price are you shopping for?"
+  },
+  {
+    "id": 4,
+    "question_type": "open",
+    "key": "annualIncome",
+    "label": "What is your annual income, before taxes?"
+  },
+  {
+    "id": 5,
+    "question_type": "multiple_choice",
+    "key": "creditScore",
+    "label": "What do you think your credit score currently is?",
+    "choices": [
+      {
+        "value": "Excellent",
+        "label": "720+"
+      },
+      {
+        "value": "Good",
+        "label": "650-719"
+      },
+      {
+        "value": "Fair",
+        "label": "600-649"
+      },
+      {
+        "value": "Low",
+        "label": "Under 600"
+      }
+    ] 
+  },
+  {
+    "id": 6,
+    "question_type": "thanksGiving",
+    "key": "endMessage",
+    "label": "Thank you! A lender will be contacting you very shortly with your options"
+  }
+]

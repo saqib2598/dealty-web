@@ -1,0 +1,21 @@
+.question {
+  text-align: center;
+  display: block;
+  margin: 0 0 20px 0;
+  font-size: 20px;
+}
+
+.prev-question {
+  cursor: pointer;
+  color: $brand-grey !important;
+}
+
+.initial-question.hidden {
+  margin: 0 0 20px 0;
+  font-size: 25px;
+}
+
+.initial-question.show {
+  font-size: 35px;
+  margin-bottom: 20px;
+}

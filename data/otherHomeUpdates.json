@@ -1,0 +1,230 @@
+[
+  {
+    "id": 1,
+    "question_type": "multiple_choice",
+    "key": "countertops",
+    "path": null,
+    "label": "What kind of countertops does your kitchen have?",
+    "choices":[
+      {
+        "value": "graniteSlab",
+        "label": "Granite Slab"
+      },
+      {
+        "value": "graniteTile",
+        "label": "Granite Tile"
+      },
+      {
+        "value": "otherTile",
+        "label": "Other Tile"
+      },
+      {
+        "value": "corian",
+        "label": "Corian"
+      },
+      {
+        "value": "formica",
+        "label": "Formica"
+      },
+      {
+        "value": "quartz",
+        "label": "Quartz"
+      },
+      {
+        "value": "other",
+        "label": "Other"
+      },
+      {
+        "value": "unknown",
+        "label": "Not Sure"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question_type": "boolean",
+    "key": "remodeledCabinets",
+    "path": null,
+    "label": "Have you remodeled your cabinets in the last 3 years? ",
+    "choices": [
+      {
+        "value": "true",
+        "label": "Yes"
+      },
+      {
+        "value": "false",
+        "label": "No"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question_type": "boolean",
+    "key": "newAppliances",
+    "path": null,
+    "label": "Have you purchased new appliances in the last 3 years? ",
+    "choices": [
+      {
+        "value": "true",
+        "label": "Yes"
+      },
+      {
+        "value": "false",
+        "label": "No"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question_type": "boolean",
+    "key": "masterBathroom",
+    "path": null,
+    "label": "Have you remodeled your master bathroom in the last 3 years?",
+    "choices": [
+      {
+        "value": "true",
+        "label": "Yes"
+      },
+      {
+        "value": "false",
+        "label": "No"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question_type": "boolean",
+    "key": "flooringUpdated",
+    "path": null,
+    "label": "Have you updated your flooring in the last 3 years? ",
+    "choices": [
+      {
+        "value": "true",
+        "label": "Yes"
+      },
+      {
+        "value": "false",
+        "label": "No"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question_type": "multiple_options",
+    "key": "flooringType",
+    "path": "flooringType",
+    "label": "What type of flooring do you have?",
+    "choices":[
+      {
+        "value": "tile",
+        "label": "Tile"
+      },
+      {
+        "value": "stone",
+        "label": "Stone"
+      },
+       {
+        "value": "wood",
+        "label": "Wood"
+      },
+      {
+        "value": "laminate",
+        "label": "Laminate"
+      },
+      {
+        "value": "hardwood",
+        "label": "Hardwood"
+      },
+      {
+        "value": "carpet",
+        "label": "Carpet"
+      },
+      {
+        "value": "other",
+        "label": "Other"
+      },
+      {
+        "value": "unknown",
+        "label": "Not Sure"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question_type": "boolean",
+    "key": "horsePrivileges",
+    "path": null,
+    "label": "Horse Privileges?",
+    "choices": [
+      {
+        "value": "true",
+        "label": "Yes"
+      },
+      {
+        "value": "false",
+        "label": "No"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question_type": "multiple_options",
+    "key": "horseFeatures",
+    "path": null,
+    "label": "Horse Features?",
+    "choices":[
+      {
+        "value": "stalls",
+        "label": "Stalls"
+      },
+      {
+        "value": "mareMotel",
+        "label": "Mare Motel"
+      },
+      {
+        "value": "arena",
+        "label": "Arena"
+      },
+      {
+        "value": "turnout",
+        "label": "Turnout"
+      },
+      {
+        "value": "none",
+        "label": "None"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question_type": "open",
+    "key": "horseStalls",
+    "path": null,
+    "label": "How many Stalls?"
+  },
+  {
+    "id": 10,
+    "question_type": "multiple_choice",
+    "key": "backyardCondition",
+    "path": null,
+    "label": "What's the condition of your backyard?",
+    "choices":[
+      {
+        "value": "noYard",
+        "label": "No Yard"
+      },
+      {
+        "value": "noLandscaping",
+        "label": "No Landscaping"
+      },
+      {
+        "value": "sparseLandscaping",
+        "label": "Sparse Landscaping"
+      },
+      {
+        "value": "lushLandscaping",
+        "label": "Lush Landscaping"
+      }
+    ]
+  }
+]

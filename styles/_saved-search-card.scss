@@ -1,0 +1,152 @@
+.saved-search-card{
+  margin: 30px;
+  .card{
+    width: 450px;
+  }
+  .saved-search-subtitle-header{
+    background-color: #007793;
+    border-radius: 5px;
+    height: 50px;
+  }
+  .saved-search-icon{
+    &__search{
+      cursor: pointer;
+      height: 1.3em;
+      margin: auto;
+      width: 65%;
+      color: white;
+      margin-top: 12px;
+    }
+    &__home{
+      cursor: pointer;
+      height: 1em;
+      width: 1em;
+      color: #BFBEBE;
+    }
+    &__details{
+      cursor: pointer;
+      height: 1.3em;
+      color: grey;
+    }
+    
+  }
+  .card-sub-heading-row{
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .card-text-row{
+    margin-left: 10px;
+  }
+  .card-block{
+    display: contents;
+    margin-right: 5px;
+  }
+  .card-title-heading{
+    color: white;
+    padding-top: 12px;
+  }
+  .subtitle-header{
+    background-color: #007793;
+    border-radius: 5px;
+  }
+  .saved-search-address{
+    font-size: 1em;
+    font-weight: bold; 
+  }
+  .saved-search-info{
+    margin-left: 10px;
+    color: grey;
+  }
+  .saved-search-card-dates{
+    margin-bottom: 2px;
+  }
+  .saved-search-button{
+    margin-bottom: 20px;
+  }
+  .header-row{
+    width: 100%;
+  }
+}
+.save-search-modal{
+  .modal-content{
+    padding: 25px;
+  }
+  .modal-heading{
+    font-size: 27px;
+    text-align: center;
+    color: $title-light-color;
+    padding-top: 5px;
+    padding-bottom:10px;
+  }
+  tr:nth-child(even)
+  {
+    background-color: #f2f2f2;
+  }
+  .modal-header{
+    border-bottom: none !important;
+    margin-top: -58px;
+    margin-bottom: -20px;
+    margin-right: -54px;
+  }
+  .close{
+    border-radius: 50%;
+  }
+  .icon{
+    text-align: center;
+    padding-top: 35px;
+  }
+  .licence_table{
+    text-align: center;
+  }.heading-tag{
+    text-align: center;
+  }
+  .saved-search-label{
+    font-family: inherit;
+    font-size: 1.2em;
+    margin-top: 17px;
+  }
+}
+.show-saved-searches{
+  .modal-content{
+    padding: 25px;
+  }
+  .modal-heading{
+    font-size: 27px;
+    text-align: center;
+    color: $title-light-color;
+    padding-top: 5px;
+    padding-bottom:10px;
+  }
+  .modal-header{
+    border-bottom: none !important;
+    margin-top: -58px;
+    margin-bottom: -20px;
+    margin-right: -54px;
+  }
+  .close{
+    border-radius: 50%;
+  }
+}
+.saved-homes{
+  .page-title{
+    text-align: center;
+  }
+  .favorite-pagination{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .add{
+    border: solid 2px #e9e7e7;
+    border-radius: 10px;
+    width: 100%;
+    color: $dark;
+    cursor: pointer;
+  }
+  .add:hover,
+  .add:focus{
+    background: #fff;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+    border: solid 2px #fff;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,506 @@
+/* With and Without Map Listing Card */
+.home-card, .home-card-no-map, .dashboard{
+  cursor: pointer;
+  .view-details{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  .ribbon-wrapper {
+    width: 85px;
+    height: 88px;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    z-index: 20;
+    right: 0px;
+    .ribbon {
+      font: bold 12px sans-serif;
+      color: #333;
+      padding: 3px 0px 3px 20px;
+      text-align: center;
+      -webkit-transform: rotate(45deg);
+      -moz-transform:    rotate(45deg);
+      -ms-transform:     rotate(45deg);
+      -o-transform:      rotate(45deg);
+      position: relative;
+      top: 15px;
+      left: -12px;
+      width: 120px;
+      background-color: purple;
+      color: #fff;
+    }
+  }
+  .propertyPrice {
+    font-weight:bold;
+    font-size:20px;
+    font-family: 'Montserrat';
+    color: #000000;
+  }
+  .propertyFeatures {
+    float: right;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100%;
+    word-spacing: 34px;
+    color: black;
+    margin-top:22px;
+  }
+  .propertyFeaturesNames  {
+    font-size: 100%;
+    float: right;
+    word-spacing: 11px;
+    padding-right: 10px;
+  }
+  .propertyFeatures-no-map {
+    float: right;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100%;
+    word-spacing: 34px;
+    color: black;
+    margin-top:22px;
+  }
+  .propertyFeaturesNames-no-map  {
+    font-size: 100%;
+    float: right;
+    word-spacing: 11px;
+    padding-right: 10px;
+  }
+  .propertyAddress  {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 117px;
+    height: 3.2em;
+    white-space: nowrap;
+  }
+  .spanLine  {
+    border-left: 1px solid #aab7c1;
+    margin-right:10px;
+    opacity: 50%;
+    height: 40px;
+    position: absolute;
+    margin-top: -16px;
+    margin-left: 3px;
+  }
+  .featuresWrap{
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+  }
+  .leftFeaturesWrap{
+    width:50%;
+    padding-left: 7px;
+  }
+  .rightFeaturesWrap{
+    float: right;
+    margin-top: 22px;
+    width:50%;
+  }
+  .rowWrap{
+    width: 100%;
+  }
+  .wrap{
+    float: right;
+  }
+  .image-ad{
+    z-index: 0;
+  }
+  .ad{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    padding-top: 6px;
+    text-align: center;
+    width: 20%;
+    height: 20%;
+    background-color: #1797A6;
+    z-index: 100;
+    position: absolute;
+  }
+  .open-house-label {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    padding-top: 6px;
+    text-align: center;
+    width: 75%;
+    height: 15%;
+    background-color: gray;
+    z-index: 100;
+    position: absolute;
+    font-size: 12px;
+  }
+  .open-house-label-featured-ad {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    padding-top: 6px;
+    text-align: center;
+    width: 75%;
+    height: 15%;
+    background-color: gray;
+    z-index: 100;
+    position: absolute;
+    font-size: 12px;
+    margin-top: 34px;
+  }
+  .featured{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    padding-top: 6px;
+    text-align: center;
+    width:126px;
+    height: 20%;
+    background-color: #FFBE17;
+    z-index: 100;
+    position: absolute;
+    padding-right: 4%;
+  }
+  .featured-image{
+    z-index: 0;
+  }
+  .star{
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 80%;
+  }
+  .hour {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    padding-top: 6px;
+    text-align: center;
+    width: 37%;
+    height: 20%;
+    background-color: #1797A6;
+    z-index: 100;
+    position: absolute;
+  }
+}
+
+
+@media only screen and (min-width:320px) and (max-width:390px){
+  /* With Map */
+  .home-card, .dashboard{
+    .propertyAddress{
+      width: 76px;
+    }
+    .propertyFeaturesNames{
+      font-size: 65%;
+      padding-right: 6px;
+    }
+    .propertyFeatures{
+      font-size: 65%;
+      padding-right: 6px;
+    }
+    .spanLine  {
+      margin-left: 2px;
+      height: 33px;
+    }
+    .propertyAddress{
+      margin-left: -12%;
+      width: 46%;
+      font-size: 65%;
+    }
+    .propertyPrice{
+      margin-left: -12%;
+      font-size: 100%;
+    }
+  }
+
+  /* Without Map */
+  .home-card-no-map, .dashboard{
+    .propertyAddress{
+      width: 76px;
+    }
+    .propertyFeaturesNames-no-map{
+      font-size: 65%;
+      padding-right: 6px;
+    }
+    .propertyFeatures-no-map{
+      font-size: 65%;
+      padding-right: 6px;
+    }
+    .spanLine  {
+      margin-left: 2px;
+      height: 33px;
+    }
+    .propertyAddress{
+      margin-left: -12%;
+      width: 46%;
+      font-size: 65%;
+    }
+    .propertyPrice{
+      margin-left: -12%;
+      font-size: 100%;
+    }
+  }
+}
+@media only screen and (min-width:575px) and (max-width:767px){
+  /* With Map */
+  .home-card, .dashboard{
+    .wrap{
+      margin-left: -106px;
+      margin-top: 0px;
+      font-size: 70%;
+    }
+    .spanLine{
+      height: 58%;
+      margin-left: 3px;
+    }
+    .propertyAddress{
+      margin-left: -9%;
+      width: 46%;
+      font-size: 65%;
+    }
+    .propertyPrice{
+      margin-left: -9%;
+      font-size: 100%;
+    }
+  }
+
+  /* Without Map */
+  .home-card-no-map, .dashboard{
+    .wrap{
+      margin-left: -106px;
+      margin-top: 0px;
+      font-size: 70%;
+    }
+    .spanLine{
+      height: 58%;
+      margin-left: 3px;
+    }
+    .propertyAddress{
+      margin-left: -9%;
+      width: 46%;
+      font-size: 65%;
+    }
+    .propertyPrice{
+      margin-left: -9%;
+      font-size: 100%;
+    }
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+  /* Without Map */
+  .home-card-no-map, .dashboard{
+    .wrap{
+      margin-left: -106px;
+      margin-top: 0px;
+      font-size: 70%;
+    }
+    .spanLine{
+      height: 58%;
+      margin-left: 3px;
+    }
+    .propertyAddress{
+      margin-left: -9%;
+      width: 46%;
+      font-size: 65%;
+    }
+    .propertyPrice{
+      margin-left: -9%;
+      font-size: 100%;
+    }
+  }
+
+}
+
+@media only screen and (min-width:992px) and (max-width:1279px){
+  /* With Map */
+  .home-card, .dashboard{
+    .wrap{
+      margin-left: -143px;
+    }
+    .spanLine{
+      margin-left: 3px;
+    }
+  }
+
+  /* Without Map */
+  .home-card-no-map, .dashboard{
+    .wrap{
+      margin-left: -106px;
+      margin-top: 0px;
+      font-size: 70%;
+    }
+    .spanLine{
+      height: 58%;
+      margin-left: 3px;
+    }
+    .propertyAddress{
+      margin-left: -9%;
+      width: 46%;
+      font-size: 65%;
+    }
+    .propertyPrice{
+      margin-left: -9%;
+      font-size: 100%;
+    }
+  }
+}
+@media only screen and (min-width:1280px) {
+  /* With Map */
+  .home-card, .dashboard{
+    .wrap{
+      margin-left: -106px;
+      margin-top: 0px;
+      font-size: 70%;
+    }
+    .spanLine{
+      height: 58%;
+      margin-left: 3px;
+    }
+    .propertyAddress{
+      margin-left: -9%;
+      width: 46%;
+      font-size: 65%;
+    }
+    .propertyPrice{
+      margin-left: -9%;
+      font-size: 100%;
+    }
+  }
+
+  /* Without Map */
+  .home-card-no-map, .dashboard{
+    .wrap{
+      margin-left: -106px;
+      margin-top: 0px;
+      font-size: 70%;
+    }
+    .spanLine{
+      height: 58%;
+      margin-left: 3px;
+    }
+    .propertyAddress{
+      margin-left: -9%;
+      width: 46%;
+      font-size: 65%;
+    }
+    .propertyPrice{
+      margin-left: -9%;
+      font-size: 100%;
+    }
+  }
+}
+.home-listing-card{
+  cursor: pointer;
+  transition-duration: 0.5s;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+.features-wrap{
+  padding: 10px;
+  .features-main-row{
+    display: flex;
+    flex-direction: row;
+    .feature-price-col{
+      width: 60%;
+    }
+    .feature-col{
+      width: 40%;
+      .features-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        :not(:last-child){
+          border-right: 1px solid rgb(182, 182, 182);
+        }
+      }
+    }
+  }
+  .home-price{
+    font-weight: bold;
+    color: black;
+    width: 70%;
+  }
+  .home-address{
+    font-size: 12px;
+    width: 70%;
+    overflow: hidden !important;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .home-feature{
+    padding: 0px 6px;
+    .home-feature-title{
+      border: none !important;
+      font-size: 12px;
+    }
+    .home-feature-value{
+      border: none !important;
+      font-weight: bold;
+      font-size: 13px;
+      color: black;
+    }
+  }
+}
+
+.home-agent{
+  .card{
+    background-color: $app-color;
+    height: 274px;
+    cursor: pointer;
+    &:hover{
+      transform: none;
+    }
+  }
+.agent-card-row{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  .agent-card-col-1{
+    display: flex;
+    flex-direction: column;
+    flex: 40%;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    img{
+      width: 60px;
+      height: 60px;
+      border-radius: 70%;
+    }
+    .agent-name{
+      font-weight: bold;
+      color: white;
+      font-size: inherit;
+      line-height: 16px;
+      margin-top: 5px;
+    }
+    .agent-company{
+      font-size: small;
+      margin-top: 15px;
+      color: white;
+    }
+  }
+  .agent-card-col-2{
+    display: flex;
+    flex-direction: column;
+    flex: 60%;
+    padding: 10px;
+    div{
+      color: white;
+    }
+    .agent-bio{
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      font-size: small;
+    }
+  }
+}
+}

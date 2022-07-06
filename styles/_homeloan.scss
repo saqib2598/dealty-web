@@ -1,0 +1,837 @@
+.homeloan_page {
+  padding-top: 64px;
+  .officer-banner {
+    background: transparent linear-gradient(0deg, #1999A980 0%, #B3B3B333 100%) 0% 0% no-repeat padding-box;
+    border-radius: 93px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 46px 50px;
+    margin-top: 10px;
+    .fairway {
+      margin-left: auto;
+      background-image: url('/static/images/house_icon.png');
+      background-position: 100% 0;
+      padding: 20px 59px 14px 0;
+      background-repeat: no-repeat;
+      color: #000000;
+      font: 20px/24px 'Montserrat', sans-serif;
+      color: #000000;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .star-rating {
+      margin-left: 10px;
+      &.label{
+        margin: auto;
+      }
+    }
+    .officer-banner-inner {
+      margin-top: 10px;
+      display: flex;
+      .user_photo-holder {
+        .photo-frame {
+          img {
+            width: 100%;
+          }
+        }
+        .officer_name {
+          color: #333333;
+          font: 22px/42px 'Montserrat', sans-serif;
+          font-weight: 900;
+          display: block;
+        }
+        span {
+          display: block;
+          text-align: center;
+          margin: 0 0 5px;
+          color: #000000;
+          font: 24px/28px 'Montserrat', sans-serif;
+        }
+        .loan-officer-license{
+          font-size: 100%;
+          margin-top:-4%
+        }
+        .officer-company{
+          font: 'Montserrat', sans-serif;
+          font-weight: 900;
+          font-weight: bold;
+        }
+        .paid-contact-info{
+          font-size: 100%;
+          .user-email{
+            color: 'darkslategrey';
+            font-size: '79%';
+            word-wrap: break-word;
+            margin-top: -20px;
+            margin-left: 22px;
+          }
+          .user-phone{
+            font-size:'80%';
+            color:'darkslategrey';
+          }
+        }
+
+      }
+      .homeloan_caption {
+        margin: 0 0 60px;
+        width: 80%;
+        h1 {
+          color: #000000;
+          font-size: 35px;
+          line-height: 49px;
+          margin: 0 0 40px;
+          font-weight: 700;
+          font-family: 'Montserrat', sans-serif;
+        }
+        p {
+          color: #000000;
+          font-size: 24px;
+          line-height: 33px;
+          margin: 0 0 20px;
+          font-weight: 400;
+        }
+      }
+    }
+    .btn_area {
+      width: 867px;
+      margin: 0 auto;
+      p {
+        font-size: 24px;
+        line-height: 36px;
+        margin: 0 0 50px;
+        color: #000;
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
+      }
+      .btn_list {
+        height: 78px;
+        text-align: center;
+        background: #1999A9;
+        border: 1px solid #1999A9;
+        border-radius: 12px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        min-width: 362px;
+        margin-right: 66px;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 36px;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+  .homeloan_content {
+    margin-top: 0;
+    padding-top: 100px;
+    border-radius: 10px 10px;
+    border-radius: 115px;
+    opacity: 1;
+    .jerey-text-caption {
+      margin: 0 0 86px;
+      color: #000;
+      font-size: 18px;
+      font-weight: normal;
+      h1 {
+        text-align: center;
+        color: #000000;
+        margin: 0 0 20px;
+        font: 24px/36px 'Montserrat', sans-serif;
+        font-weight: 900 !important;
+      }
+    }
+    .owners_info {
+      background-image: url('/static/images/bg_rating.png');
+      background-repeat: no-repeat;
+      background-size: 100%;
+      padding: 135px 44px 71px;
+      color: #E6E6E6;
+      font-weight: normal;
+      .rating_head {
+        margin: 0 0 0;
+        font: 22px/23px 'Montserrat', sans-serif;
+        font-weight: 900;
+      }
+      h2 {
+        font: 32px/42px 'Montserrat', sans-serif;
+        color: #fff;
+        margin: 0 0 44px;
+        font-weight: 900;
+        text-align: center;
+      }
+      .owners_info_inner {
+        padding: 0 64px;
+        text-align: justify;
+        hyphens: auto;
+      }
+    }
+    .tab_box_option {
+      margin-bottom: 120px;
+      .tab_box_cal {
+        padding: 0 50px;
+        margin-bottom: 20px;
+        .title {
+          color: #1A1A1A;
+          font-size: 24px;
+          line-height: 27px;
+          margin-bottom: 20px;
+          display: block;
+        }
+        img {
+          display: block;
+          margin: 0 auto 20px;
+        }
+        .tab_textarea {
+          color: #999999;
+          font-size: 18px;
+          line-height: 24px;
+          p {
+            hyphens: auto;
+            margin: 0 0 15px;
+          }
+          .btn {
+            text-align: center;
+            min-width: 200px;
+            font-size: 18px;
+            line-height: 24px;
+            min-height: 54px;
+            display: block;
+            background: #1999A9;
+            border-radius: 12px;
+            color: #FFFFFF;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+    .tab_box {
+      margin-bottom: 124px;
+      text-align: center;
+      img {
+        display: block;
+        margin: 0 auto 20px;
+      }
+      .tab_textarea {
+        hyphens: auto;
+        text-align: justify;
+        letter-spacing: -1.19px;
+        color: #999999;
+        font-size: 24px;
+        line-height: 34px;
+        .step {
+          color: #000000;
+          display: block;
+          margin: 0 0 12px;
+          text-align: center;
+        }
+        .title {
+          text-align: center;
+          letter-spacing: -1.39px;
+          color: #1A1A1A;
+          font-size: 28px;
+          line-height: 33px;
+          min-height: 160px;
+          margin-bottom: 18px;
+          min-height: 68px;
+          display: block;
+          font-weight: 900;
+        }
+      }
+    }
+    .contact_btn {
+      background-color: #1999A9;
+      font: 24px/36px 'Montserrat', sans-serif;
+      margin: auto;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+@media (max-width:1920px) {
+  .homeloan_page {
+
+    padding-top: 64px;
+    .officer-banner {
+      background: transparent linear-gradient(0deg, #1999A980 0%, #B3B3B333 100%) 0% 0% no-repeat padding-box;
+      border-radius: 93px;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 50px 46px 50px;
+      margin-top: 10px;
+      .fairway {
+        margin-left: auto;
+        background-image: url('/static/images/house_icon.png');
+        background-position: 100% 0;
+        padding: 20px 59px 14px 0;
+        background-repeat: no-repeat;
+        color: #000000;
+        font: 20px/24px 'Montserrat', sans-serif;
+        color: #000000;
+        display: flex;
+        justify-content: flex-end;
+      }
+      .star-rating {
+        margin-left: 10px;
+        &.label{
+          margin: auto;
+        }
+      }
+      .officer-banner-inner {
+        margin-top: 10px;
+        display: flex;
+        .user_photo-holder {
+          .photo-frame {
+            img {
+              width: 100%;
+            }
+          }
+          .officer_name {
+            color: #333333;
+            font: 22px/42px 'Montserrat', sans-serif;
+            font-weight: 900;
+            display: block;
+          }
+          span {
+            display: block;
+            text-align: center;
+            color: #000000;
+          }
+          .user-email{
+            font-size:'10%';
+          }
+          .user-phone{
+            font-size:'10%';
+          }
+
+        }
+        .homeloan_caption {
+          margin: 0 0 60px;
+          width: 80%;
+          h1 {
+            color: #000000;
+            font-size: 35px;
+            line-height: 49px;
+            margin: 0 0 40px;
+            font-weight: 700;
+            font-family: 'Montserrat', sans-serif;
+          }
+          p {
+            color: #000000;
+            font-size: 24px;
+            line-height: 33px;
+            margin: 0 0 20px;
+            font-weight: 400;
+          }
+        }
+      }
+      .btn_area {
+        width: 867px;
+        margin: 0 auto;
+        p {
+          font-size: 24px;
+          line-height: 36px;
+          margin: 0 0 50px;
+          color: #000;
+          font-weight: 400;
+          font-family: 'Montserrat', sans-serif;
+        }
+        .btn_list {
+          height: 78px;
+          text-align: center;
+          background: #1999A9;
+          border: 1px solid #1999A9;
+          border-radius: 12px;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          min-width: 362px;
+          margin-right: 66px;
+          font-weight: 900;
+          font-size: 30px;
+          line-height: 36px;
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+    .homeloan_content {
+      margin-top: 0;
+      padding-top: 100px;
+      border-radius: 10px 10px;
+      border-radius: 115px;
+      opacity: 1;
+      .jerey-text-caption {
+        margin: 0 0 86px;
+        color: #000;
+        font-size: 18px;
+        font-weight: normal;
+        h1 {
+          text-align: center;
+          color: #000000;
+          margin: 0 0 20px;
+          font: 24px/36px 'Montserrat', sans-serif;
+          font-weight: 900 !important;
+        }
+      }
+      .owners_info {
+        background-image: url('/static/images/bg_rating.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding: 135px 44px 71px;
+        color: #E6E6E6;
+        font-weight: normal;
+        .rating_head {
+          margin: 0 0 0;
+          font: 22px/23px 'Montserrat', sans-serif;
+          font-weight: 900;
+        }
+        h2 {
+          font: 32px/42px 'Montserrat', sans-serif;
+          color: #fff;
+          margin: 0 0 44px;
+          font-weight: 900;
+          text-align: center;
+        }
+        .owners_info_inner {
+          padding: 0 64px;
+          text-align: justify;
+          hyphens: auto;
+        }
+      }
+      .tab_box_option {
+        margin-bottom: 120px;
+        .tab_box_cal {
+          padding: 0 50px;
+          margin-bottom: 20px;
+          .title {
+            color: #1A1A1A;
+            font-size: 24px;
+            line-height: 27px;
+            margin-bottom: 20px;
+            display: block;
+          }
+          img {
+            display: block;
+            margin: 0 auto 20px;
+          }
+          .tab_textarea {
+            color: #999999;
+            font-size: 18px;
+            line-height: 24px;
+            p {
+              hyphens: auto;
+              margin: 0 0 15px;
+            }
+            .btn {
+              text-align: center;
+              min-width: 200px;
+              font-size: 18px;
+              line-height: 24px;
+              min-height: 54px;
+              display: block;
+              background: #1999A9;
+              border-radius: 12px;
+              color: #FFFFFF;
+              margin: 0 auto;
+            }
+          }
+        }
+      }
+      .tab_box {
+        margin-bottom: 124px;
+        text-align: center;
+        img {
+          display: block;
+          margin: 0 auto 20px;
+        }
+        .tab_textarea {
+          hyphens: auto;
+          text-align: justify;
+          letter-spacing: -1.19px;
+          color: #999999;
+          font-size: 24px;
+          line-height: 34px;
+          .step {
+            color: #000000;
+            display: block;
+            margin: 0 0 12px;
+            text-align: center;
+          }
+          .title {
+            text-align: center;
+            letter-spacing: -1.39px;
+            color: #1A1A1A;
+            font-size: 28px;
+            line-height: 33px;
+            min-height: 160px;
+            margin-bottom: 18px;
+            min-height: 68px;
+            display: block;
+            font-weight: 900;
+          }
+        }
+      }
+      .contact_btn {
+        background-color: #1999A9;
+        font: 24px/36px 'Montserrat', sans-serif;
+        margin: auto;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+@media (max-width:1440px) {
+  .homeloan_page {
+    .officer-banner {
+      margin-top: 10px;
+      padding: 50px 46px 40px;
+      .fairway {
+        margin-left: auto;
+        font: 16px/22px 'Montserrat', sans-serif;
+      }
+      .officer-banner-inner{
+        .user_photo-holder {
+          .photo-frame {
+            img {
+              width: 100%;
+            }
+            margin: 0 0 40px;
+          }
+          .officer_name {
+            font: 16px/22px 'Montserrat', sans-serif;
+            font-weight: 900;
+          }
+          span {
+            margin: 0 0 5px;
+            font: 16px/22px 'Montserrat-Regular';
+          }
+          .loan-officer-license{
+            margin-top:0%
+          }
+        }
+        .homeloan_caption {
+          margin: 0 0 60px;
+          padding: 30px 0 60px 0;
+          width: 84%;
+          h1 {
+            font-size: 24px;
+            line-height: 27px;
+            margin: 0 0 40px;
+          }
+          p {
+            font-size: 18px;
+            line-height: 26px;
+            margin: 0 0 20px;
+          }
+        }
+        .btn_area {
+          width: 100%;
+          p {
+            font-size: 18px;
+            line-height: 30px;
+            margin: 0 0 30px;
+          }
+          .btn_list {
+            font-size: 18px;
+            line-height: 25px;
+            height: 52px;
+            min-width: 258px;
+            margin-right: 60px;
+            &:last-child {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+    .homeloan_content {
+      margin-top: 0;
+      padding-top: 80px;
+      border-radius: 8px 8px;
+      opacity: 1;
+      .jerey-text-caption {
+        color: #000;
+        h1 {
+          text-align: center;
+          color: #000000;
+          font-weight: 900;
+          margin: 0 0 20px;
+          font: 24px/36px 'Montserrat', sans-serif;
+        }
+      }
+      .owners_info {
+        background-image: url('/static/images/bg_rating.png');
+        background-size: 100%;
+        padding: 135px 44px 71px;
+        background-repeat: no-repeat;
+        color: #E6E6E6;
+        margin: 0 0 120px;
+        font-weight: normal;
+        .rating_head {
+          margin: 0 0 20px;
+          font: 18px/18px 'Montserrat', sans-serif;
+          font-weight: 900;
+          p {
+            margin: 0;
+          }
+        }
+        h2 {
+          font: 32px/42px 'Montserrat', sans-serif;
+          color: #fff;
+          margin: 0 0 40px;
+          font-weight: 900;
+          text-align: center;
+        }
+        .owners_info_inner {
+          padding: 0 117px;
+        }
+      }
+      .tab_box_option {
+        margin-bottom: 70px;
+        .tab_box_cal {
+          padding: 0 34px;
+        }
+        .title {
+          color: #1A1A1A;
+          font-size: 24px;
+          line-height: 32px;
+          margin-bottom: 20px;
+          display: block;
+          text-align: center;
+        }
+        img {
+          display: block;
+          margin: 0 auto 20px;
+        }
+        .tab_textarea {
+          color: #999999;
+          font-size: 18px;
+          line-height: 22px;
+          p {
+            margin: 0 0 15px;
+          }
+          .btn {
+            text-align: center;
+            min-width: 170px;
+            font-size: 18px;
+            line-height: 24px;
+            min-height:54px;
+            display: block;
+            margin: 0 auto;
+          }
+        }
+      }
+      .tab_box {
+        margin-bottom: 124px;
+        .tab_textarea {
+          font-size: 18px;
+          line-height: 21px;
+          .step {
+            margin: 0 0 8px;
+          }
+          .title {
+            font-size: 24px;
+            line-height: 30px;
+            margin-bottom: 10px;
+            min-height: 47px;
+            font-weight: 900 !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width:1025px) {
+  .homeloan_page {
+    .homeloan_content {
+      .owners_info {
+        padding: 122px 38px 64px;
+        margin: 0 0 50px;
+        font-weight: normal;
+        background-size: cover;
+        h2 {
+          font: 24px/35px 'Montserrat', sans-serif;
+          margin: 0 0 37px;
+        }
+        .owners_info_inner {
+          padding: 0 52px;
+        }
+      }
+    }
+  }
+}
+@media (max-width:768px) {
+  .homeloan_page {
+    .officer-banner {
+      .officer-banner-inner {
+        display: flex;
+        flex-flow: column-reverse;
+        .homeloan_caption {
+          margin: 0 0 60px;
+          width: 100%;
+          h1 {
+            margin: 0 0 20px;
+          }
+          p {
+            font-size: 15px;
+            line-height: 20px;
+            margin: 0 0 18px;
+          }
+        }
+      }
+      .btn_area {
+        margin: 0 0 10px;
+        p {
+          font-size: 15px;
+          line-height: 20px;
+          margin: 0 0 20px;
+        }
+        .btn_list {
+          height: 42px;
+          min-width: 100%;
+          margin-right: 0;
+          margin-bottom: 20px;
+          font-size: 18px;
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+    .homeloan_content {
+      padding-top: 56px;
+      border-radius: 40px;
+      margin-bottom: 30px;
+      .owners_info  {
+        background-size: cover;
+        margin: 0 0 100px;
+        background-position: center;
+        .owners_info_inner {
+          padding: 0 34px;
+        }
+      }
+      .jerey-text-caption {
+        margin: 0 0 10px;
+      }
+      .tab_box_option {
+       .tab_box_cal{
+         .tab_textarea {
+            .btn {
+              width: 100%;
+              min-width: 100%;
+            }
+         }
+       }
+      }
+      .tab_box {
+        margin-bottom: 15px;
+        .tab_textarea {
+          font-size: 13px;
+          line-height: 17px;
+          .title {
+            font-size: 17px;
+            line-height: 21px;
+            margin-bottom: 10px;
+            min-height: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width:767px) {
+  .homeloan_page {
+    .officer-banner {
+      padding: 49px 20px 197px;
+      border-radius: 50px;
+      .officer-banner-inner {
+        display: flex;
+        flex-flow: column-reverse;
+        .homeloan_caption {
+          margin: 0 0 60px;
+          width: 100%;
+          h1 {
+            margin: 0 0 20px;
+          }
+          p {
+            font-size: 15px;
+            line-height: 20px;
+            margin: 0 0 18px;
+          }
+        }
+      }
+      .btn_area {
+        p {
+          font-size: 15px;
+          line-height: 20px;
+          margin: 0 0 20px;
+        }
+        .btn_list {
+          height: 42px;
+          min-width: 200px;
+          margin-right: 0;
+          margin-bottom: 20px;
+          font-size: 18px;
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+    .homeloan_content {
+      padding-top: 56px;
+      border-radius: 40px;
+      margin-bottom: 30px;
+      .owners_info  {
+        background-size: cover;
+        margin: 0 0 20px;
+        background-position: center;
+        .owners_info_inner {
+          padding: 0 0;
+        }
+      }
+      .tab_box {
+        margin-bottom: 20px;
+        .tab_textarea {
+          font-size: 13px;
+          line-height: 17px;
+          .title {
+            font-size: 17px;
+            line-height: 21px;
+            margin-bottom: 10px;
+            min-height: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.contact-lender-form .modal-header{
+  border-bottom: none !important;
+  margin-top: -58px;
+  margin-bottom: -40px;
+  margin-right: -54px;
+}
+.contact-lender-form .close{
+  border-radius: 50%;
+}
+@media (min-width:1441px) {
+  .homeloan_page {
+    .officer-banner {
+      .btn_area {
+        .btn_list {
+          margin-top:25%;
+          }
+        }
+      }
+    }
+}
+
+.status-icon {
+  margin-right: 6px !important;
+  margin-top: -5px !important;
+  height: 28px !important;
+  width: 28px !important;
+}

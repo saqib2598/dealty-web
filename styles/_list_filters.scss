@@ -1,0 +1,414 @@
+.price-filter {
+	cursor: pointer;
+	margin-top: -225px;
+	margin-left: -172px;
+	float: left;
+	color: #1999a9;
+	font-size: 14px;
+	font-weight: bold;
+	border: white;
+	font-family: "Montserrat";
+	background-color: white;
+}
+
+.price-heading {
+	margin: 6px;
+	font-size: 17px;
+	font-weight: bolder;
+}
+
+.price-filter-elements {
+	margin-top: 2px;
+	input{
+		font-size: 14px;
+	}
+}
+
+.dollar-image {
+	width: 12px;
+	margin-right: 3px;
+}
+
+.price-bottom {
+	margin-top: 10px;
+	height: 45px;
+	background-color: #1999a9;
+}
+
+.price-button {
+	font-weight: bold;
+	border-radius: 5px;
+	color: #1999a9;
+	margin: 9px;
+	float: right;
+	background-color: white;
+	border: none;
+}
+
+.price-menue {
+	margin-top: "15px";
+	width: "210px";
+	margin-left: "-52px";
+}
+
+.bed-image {
+	position: fixed;
+	width: 22px;
+	margin-left: -5px;
+	margin-top: -101px;
+}
+
+.bed-text {
+	margin-left: 24px;
+	margin-top: -106px;
+	float: left;
+}
+
+.bath-image {
+	float: left;
+	position: fixed;
+	width: 22px;
+	margin-left: 161px;
+	margin-top: -163px;
+}
+
+.home-type {
+	position: fixed;
+	cursor: pointer;
+	margin-left: 356px;
+	margin-top: -45px;
+	float: left;
+	background-color: white;
+	font-family: "Montserrat";
+	color: #1999a9;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.home-image {
+	position: fixed;
+	width: 22px;
+	float: left;
+	margin-top: -27px;
+	margin-left: 342px;
+}
+
+.more-filters {
+	position: fixed;
+	margin-top: 16px;
+	border: None;
+	cursor: pointer;
+	margin-left: 570px;
+	float: left;
+	background-color: white;
+	font-family: "Montserrat";
+	color: #1999a9;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.filters-menue {
+	margin-top: "139px";
+}
+
+.baths {
+	cursor: pointer;
+	margin-left: 191px;
+	margin-top: -163px;
+	float: left;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: "Montserrat";
+}
+
+.moreFilters-image {
+	float: left;
+	width: 20px;
+	margin-top: 34px;
+	position: fixed;
+	margin-left: 555px;
+}
+
+.dropdown-style {
+	border: none;
+	background-color: white;
+	color: #1999a9;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
+.dropdown-items {
+	color: #1999a9 !important;
+}
+
+.filters-pointer {
+	cursor: pointer;
+}
+
+@media screen and (min-device-width: 1270), screen and (max-width: 1370px) {
+	.filters {
+		margin-left: -8%;
+	}
+
+	.more-filters {
+		margin-left: 495px;
+	}
+
+	.moreFilters-image {
+		margin-left: 482px;
+	}
+}
+
+@media screen and (min-device-width: 1171), screen and (max-width: 1269px) {
+	.price-filter {
+		margin-left: -16%;
+	}
+
+	.bed-image {
+		margin-left: -5%;
+	}
+
+	.bed-text {
+		margin-left: -5%;
+	}
+
+	.bath-image {
+		margin-left: 4%;
+	}
+
+	.baths {
+		margin-left: 11%;
+	}
+
+	.home-image {
+		margin-left: 15%;
+	}
+
+	.home-type {
+		margin-left: 16%;
+	}
+
+	.moreFilters-image {
+		margin-left: 24%;
+	}
+
+	.more-filters {
+		margin-left: 25%;
+	}
+}
+
+@media screen and (min-device-width: 1100), screen and (max-width: 1170px) {
+	.price-filter {
+		margin-left: -20%;
+	}
+
+	.bed-image {
+		margin-left: -7%;
+	}
+
+	.bed-text {
+		margin-left: -8%;
+	}
+
+	.bath-image {
+		margin-left: 4%;
+	}
+
+	.baths {
+		margin-left: 11%;
+	}
+
+	.home-image {
+		margin-left: 16%;
+	}
+
+	.home-type {
+		margin-left: 17%;
+	}
+
+	.moreFilters-image {
+		margin-left: 26%;
+	}
+
+	.more-filters {
+		margin-left: 27%;
+	}
+}
+
+@media screen and (min-device-width: 992), screen and (max-width: 1099px) {
+	.price-filter {
+		margin-left: -23%;
+	}
+
+	.filters {
+		margin-left: -13%;
+	}
+
+	.bed-image {
+		margin-left: -7%;
+	}
+
+	.bed-text {
+		margin-left: -8%;
+	}
+
+	.bath-image {
+		margin-left: 2%;
+	}
+
+	.baths {
+		margin-left: 6%;
+	}
+
+	.home-image {
+		margin-left: 14%;
+	}
+
+	.home-type {
+		margin-left: 15%;
+	}
+
+	.moreFilters-image {
+		margin-left: 21%;
+	}
+
+	.more-filters {
+		margin-left: 22%;
+	}
+}
+
+@media screen and (min-device-width: 915), screen and (max-width: 991px) {
+	.price-filter {
+		margin-left: -28%;
+	}
+
+	.filters {
+		margin-top: -21%;
+		margin-left: -20%;
+	}
+
+	.bed-text {
+		margin-left: -6%;
+	}
+
+	.moreFilters-image {
+		margin-left: 155px;
+		margin-top: -98px;
+	}
+
+	.more-filters {
+		margin-left: 166px;
+		margin-top: -116px;
+	}
+}
+
+@media screen and (min-device-width: 880), screen and (max-width: 914px) {
+	.price-filter {
+		margin-left: -32%;
+	}
+
+	.bed-image {
+		margin-left: -9%;
+	}
+
+	.bed-text {
+		margin-left: -8%;
+	}
+
+	.bath-image {
+		margin-left: 1%;
+	}
+
+	.baths {
+		margin-left: 4%;
+	}
+
+	.moreFilters-image {
+		margin-left: 131px;
+		margin-top: -98px;
+	}
+
+	.more-filters {
+		margin-left: 139px;
+		margin-top: -116px;
+	}
+}
+
+@media screen and (min-device-width: 861px),
+	screen and (max-device-width: 879px) {
+	.price-filter {
+		margin-left: -35%;
+	}
+
+	.bed-image {
+		margin-left: -12%;
+	}
+
+	.bed-text {
+		margin-left: -11%;
+	}
+
+	.bath-image {
+		margin-left: -1%;
+	}
+
+	.baths {
+		margin-left: 2%;
+	}
+
+	.home-image {
+		margin-left: 12%;
+	}
+
+	.home-type {
+		margin-left: 13%;
+	}
+
+	.moreFilters-image {
+		margin-left: 115px;
+		margin-top: -98px;
+	}
+
+	.more-filters {
+		margin-left: 128px;
+		margin-top: -116px;
+	}
+}
+
+@media screen and (max-device-width: 767px) {
+	.filters {
+		font-weight: bold;
+		font-family: "Montserrat";
+		margin-top: -47px;
+		float: left;
+		width: 75%;
+		position: absolute;
+		margin-left: 23%;
+		font-size: 20px;
+		color: white;
+		background-color: #00586d;
+		border-color: #004e60;
+	}
+
+	.price-filter {
+		width: 75%;
+		position: absolute;
+		margin-top: -106px;
+		margin-left: 23%;
+		font-size: 20px;
+		color: white;
+		background-color: #00586d;
+		border-color: #004e60;
+	}
+
+	.price-menue {
+		margin-left: 22%;
+		margin-top: 0%;
+	}
+
+	.filters-menue {
+		margin-left: 15%;
+		margin-top: 30%;
+	}
+}

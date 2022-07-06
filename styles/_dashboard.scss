@@ -1,0 +1,104 @@
+@mixin dashboard-content(
+  $direction,
+  $width1,
+  $width2,
+  $owner-card-margin,
+  $card-width
+) {
+  display: flex;
+  flex-direction: $direction;
+  margin: 0 auto;
+  .listings-list {
+    list-style: none;
+  }
+  .dashboard-item-1 {
+    margin: 0 auto;
+    text-align: center;
+    width: $width1;
+  }
+  .dashboard-item-2 {
+    width: $width2;
+    margin: 0 auto;
+    text-align: center;
+    h3{
+      font-size: 20px;
+      margin-top: 30px;
+    }
+  }
+  .dashboard_card {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition-duration: 0.5s;
+    width: $card-width;
+    &:hover {
+      transform: scale(1.05);
+    }
+    img {
+      border-radius: 10px;
+      height: 220px;
+      width: 100%;
+    }
+  }
+  .dashboard_icon {
+    cursor: pointer;
+    color: $teal-gradient;
+    &:hover {
+      color: $teal-button;
+    }
+  }
+  .dashboard-owner-card {
+    margin: 0 auto;
+    margin-top: $owner-card-margin;
+    width: 80%;
+    .card {
+      border-radius: 10px;
+      img {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+        object-fit: cover;
+        margin-top: 20px;
+        border-radius: 50%;
+      }
+      .seller-name {
+        font-weight: bold;
+        font-size: 20px;
+      }
+      .card-text {
+        margin: 5px;
+      }
+      .btn {
+        margin-top: 20px;
+      }
+    }
+  }
+  .dashboard-row {
+    justify-content: center;
+    width: 100%;
+  }
+}
+.dashboard-container {
+  @include dashboard-content(row, 30%, 70%, 123px, 350px);
+}
+.add-property-button {
+  margin-top: 40px;
+  background: #fff;
+  border-radius: 10px;
+  color: $teal-button;
+  &:hover {
+    background: #fff;
+    color: $teal-button;
+    box-shadow: 0 2px 10px 0 #0097a86b;
+  }
+  .dashboard_add_icon {
+    padding-right: 5px;
+    color: $teal-button;
+  }
+}
+@media (max-width: 1000px) {
+  .dashboard-container {
+    @include dashboard-content(column, 100%, 100%, 40px, 300px);
+  }
+}

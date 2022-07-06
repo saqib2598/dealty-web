@@ -1,0 +1,473 @@
+.featured-list {
+  h1 {
+    margin: 40px 0px;
+    background-color: #1999a9;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 40px;
+    border-radius: 15px;
+    width: 50%;
+  }
+  .properties_list {
+    margin: 0 -5px 40px 0px;
+    padding: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    li {
+      margin: 0px 10px 0px 10px;
+      padding-right: 5px;
+      padding-left: 5px;
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      max-width: 23%;
+      .property-box {
+        width: 100%;
+        border-radius: 57px;
+        overflow: hidden;
+        background: #e6e6e6;
+        .head {
+          background-image: url("/static/images/featured/images/property_head_bg.png");
+          background-repeat: no-repeat;
+          background-color: #fff;
+          padding: 13px 25px 4px 21px;
+          background-position: 0 0;
+          display: flex;
+          justify-content: space-between;
+          h3 {
+            margin: 0;
+            color: #ffffff;
+            font-size: 10px;
+            line-height: 27px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 900;
+            margin-right: 10px;
+            padding: 5px 0 0;
+          }
+        }
+        .property-image {
+          height: 200px;
+          overflow: hidden;
+          position: relative;
+        }
+        .property_caption {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          background-image: url("/static/images/property_bg_caption.png");
+          height: 229px;
+          padding: 174px 10px 11px 15px;
+          color: #fff;
+          font-size: 19px;
+          line-height: 21px;
+        }
+        .proerty_text {
+          padding: 10px 5px 10px 15px;
+          .property-info-holder {
+            display: flex;
+            align-items: center;
+            margin: 0 0 7px;
+            flex-wrap: wrap;
+            .price {
+              color: #1999a9;
+              font-size: 28px;
+              line-height: 45px;
+              font-family: "Montserrat", sans-serif;
+              font-weight: 900;
+              display: block;
+              width: 100%;
+            }
+            .property_info {
+              margin: 0;
+              list-style: none;
+              padding: 0;
+              display: flex;
+              justify-content: space-between;
+              width: 100%;
+              li {
+                font-size: 12px;
+                line-height: 20px;
+                font-family: "Montserrat", sans-serif;
+                border-right: 1px solid #000000;
+                color: #000000;
+                padding: 0 4px;
+                font-weight: 400;
+                &:last-child {
+                  border-right: none;
+                }
+                p {
+                  margin: 0;
+                  font-weight: 300;
+                  font-family: "Montserrat", sans-serif;
+                }
+              }
+            }
+          }
+          .address-holder {
+            display: flex;
+            align-items: flex-start;
+            img {
+              margin-right: 12px;
+            }
+            .address_info {
+              h5 {
+                color: #333333;
+                font-size: 15px;
+                line-height: 28px;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 400;
+                margin: 0;
+              }
+              p {
+                font-size: 10px;
+                line-height: 27px;
+                font-family: "Montserrat", sans-serif;
+                color: #333333;
+                font-weight: 400;
+                margin: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 2560px) {
+  .featured-list {
+    h1 {
+      margin: 40px 0px;
+      background-color: #1999a9;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 40px;
+      border-radius: 15px;
+      width: 50%;
+    }
+    .properties_list {
+      margin: 0 -5px 40px 0px;
+      padding: 0;
+      list-style: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      li {
+        margin: 0px 10px 0px 10px;
+        padding-right: 5px;
+        padding-left: 5px;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 23%;
+        .property-box {
+          width: 100%;
+          border-radius: 57px;
+          overflow: hidden;
+          background: #e6e6e6;
+          .head {
+            background-image: url("/static/images/featured/images/property_head_bg.png");
+            background-repeat: no-repeat;
+            background-color: #fff;
+            padding: 13px 25px 4px 21px;
+            background-position: 0 0;
+            display: flex;
+            justify-content: space-between;
+            h3 {
+              margin: 0;
+              color: #ffffff;
+              font-size: 10px;
+              line-height: 27px;
+              font-family: "Montserrat", sans-serif;
+              font-weight: 900;
+              margin-right: 10px;
+              padding: 5px 0 0;
+            }
+          }
+          .property-image {
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+          }
+          .property_caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-image: url("/static/images/property_bg_caption.png");
+            height: 229px;
+            padding: 174px 10px 11px 15px;
+            color: #fff;
+            font-size: 19px;
+            line-height: 21px;
+          }
+          .proerty_text {
+            padding: 10px 5px 10px 15px;
+            .property-info-holder {
+              display: flex;
+              align-items: center;
+              margin: 0 0 7px;
+              flex-wrap: wrap;
+              .price {
+                color: #1999a9;
+                font-size: 28px;
+                line-height: 45px;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 900;
+                display: block;
+                width: 100%;
+              }
+              .property_info {
+                margin: 0;
+                list-style: none;
+                padding: 0;
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                li {
+                  font-size: 12px;
+                  line-height: 20px;
+                  font-family: "Montserrat", sans-serif;
+                  border-right: 1px solid #000000;
+                  color: #000000;
+                  padding: 0 4px;
+                  font-weight: 400;
+                  &:last-child {
+                    border-right: none;
+                  }
+                  p {
+                    margin: 0;
+                    font-weight: 300;
+                    font-family: "Montserrat", sans-serif;
+                  }
+                }
+              }
+            }
+            .address-holder {
+              display: flex;
+              align-items: flex-start;
+              img {
+                margin-right: 12px;
+              }
+              .address_info {
+                h5 {
+                  width: 155px;
+                  text-overflow: ellipsis;
+                  white-space: nowrap;
+                  overflow: hidden;
+                  color: #333333;
+                  font-size: 15px;
+                  line-height: 28px;
+                  font-family: "Montserrat", sans-serif;
+                  font-weight: 400;
+                  margin: 0;
+                }
+                p {
+                  font-size: 10px;
+                  line-height: 27px;
+                  font-family: "Montserrat", sans-serif;
+                  color: #333333;
+                  font-weight: 400;
+                  margin: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .featured-list {
+    h1 {
+      margin: 40px 0px;
+      background-color: #1999a9;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 28px;
+      border-radius: 15px;
+      width: 37%;
+    }
+    .properties_list {
+      li {
+        margin: 0px 10px 0px 10px;
+        .property-box {
+          border-radius: 35px;
+          .head {
+            padding: 13px 25px 10px 21px;
+            h3 {
+              margin: 0;
+              color: #ffffff;
+              font-size: 11px;
+              line-height: 19px;
+            }
+            img {
+              width: 32px;
+            }
+          }
+          .property-image {
+            height: 200px;
+          }
+          .property_caption {
+            height: 229px;
+            padding: 174px 10px 11px 15px;
+            font-size: 14px;
+            line-height: 17px;
+          }
+          .proerty_text {
+            padding: 10px 5px 10px 15px;
+            .property-info-holder {
+              margin: 0 0 7px;
+              justify-content: space-between;
+              .price {
+                color: #1999a9;
+                font-size: 20px;
+                line-height: 31px;
+              }
+              .property_info {
+                font-size: 14px;
+                align-items: center;
+              }
+            }
+            .address-holder {
+              display: flex;
+              align-items: flex-start;
+              img {
+                margin-right: 12px;
+                width: 22px;
+              }
+              .address_info {
+                h5 {
+                  font-size: 11px;
+                  line-height: 21px;
+                  margin: 0;
+                }
+                p {
+                  font-size: 11px;
+                  line-height: 17px;
+                  margin: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1040px) {
+  .featured-list {
+    h1 {
+      font-size: 25px;
+      width: 40%;
+    }
+    .properties_list {
+      li {
+        margin: 0px 10px 0px 10px;
+        padding-right: 15px;
+        padding-left: 15px;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-bottom: 20px;
+        .property-box {
+          .head {
+            padding: 13px 25px 10px 21px;
+          }
+          .property-image {
+            height: 200px;
+          }
+          .property_caption {
+            height: auto;
+            padding: 140px 10px 10px 10px;
+            font-size: 13px;
+            line-height: 16px;
+          }
+          .proerty_text {
+            padding: 10px 10px 10px 10px;
+            .property-info-holder {
+              .price {
+                font-size: 18px;
+                line-height: 23px;
+              }
+              .property_info {
+                li {
+                  font-size: 9px;
+                  line-height: 14px;
+                  flex: inherit;
+                  max-width: auto;
+                  padding-right: 6px;
+                  padding-left: 6px;
+                  margin-bottom: 0;
+                }
+              }
+            }
+            .address-holder {
+              img {
+                width: 22px;
+              }
+              .address_info {
+                h5 {
+                  font-size: 12px;
+                  line-height: 19px;
+                }
+                p {
+                  font-size: 11px;
+                  line-height: 17px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .featured-list {
+    h1 {
+      font-size: 16px;
+      width: 100%;
+    }
+    .properties_list {
+      li {
+        margin: 0px 10px 0px 10px;
+        padding-right: 15px;
+        padding-left: 15px;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+        .property-box {
+          .property-image {
+            height: 200px;
+            img {
+              width: 100%;
+            }
+          }
+          .property_caption {
+            height: auto;
+            padding: 140px 10px 10px 10px;
+            background-size: cover;
+          }
+          .proerty_text {
+            padding: 10px 10px 10px 10px;
+          }
+        }
+      }
+    }
+  }
+}

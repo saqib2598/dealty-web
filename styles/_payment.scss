@@ -1,0 +1,36 @@
+.checkout{
+  input, .StripeElement {
+    display: block;
+    margin: 10px 0 20px 0;
+    max-width: 500px;
+    padding: 10px 14px;
+    font-size: 1em;
+    font-family: 'Source Code Pro', monospace;
+    box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px, rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+    border: 0;
+    outline: 0;
+    padding: 1.065rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #aab7c1;
+    border-radius: 6px;
+    background: white;
+
+  }
+
+  input, .StripeElement--focus {
+      color: #1b2629;
+      background-color: #fff;
+      border-color: #5df1f8;
+      outline: 0;
+      box-shadow: 0 0 0 1px #09c3cc;
+    }
+
+  .card-info {
+    text-align: center;
+
+    .card-label{
+      font-weight: bold;
+    }
+  }
+
+}

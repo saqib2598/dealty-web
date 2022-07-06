@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "question_type": "multiple_choice",
+    "key": "curbAppeal",
+    "path": null,
+    "label": "What is the curb-appeal of your home compared to your neighbors?",
+    "choices":[
+      {
+        "value": "superior",
+        "label": "Superior"
+      },
+      {
+        "value": "somewhatSuperior",
+        "label": "Somewhat Superior"
+      },
+      {
+        "value": "standard",
+        "label": "Standard"
+      },
+      {
+        "value": "moreCharm",
+        "label": "Could use more charm"
+      },
+      {
+        "value": "belowAverage",
+        "label": "Below Average"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question_type": "multiple_choice",
+    "key": "exteriorCondition",
+    "path": null,
+    "label": "What is the overall condition of your home's exterior?",
+    "choices":[
+      {
+        "value": "likeNew",
+        "label": "Like New"
+      },
+      {
+        "value": "standard",
+        "label": "Standard, HOA approved"
+      },
+      {
+        "value": "minorUpdates",
+        "label": "Needs some updates"
+      },
+      {
+        "value": "workNeeded",
+        "label": "Needs a lot of updates"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question_type": "multiple_choice",
+    "key": "interiorCondition",
+    "path": null,
+    "label": "What is the overall interior condition of your home?",
+    "choices":[
+      {
+        "value": "modelReady",
+        "label": "Looks like a Model Home/Recently renovated"
+      },
+      {
+        "value": "ready",
+        "label": "Move-in-ready after a good cleaning"
+      },
+      {
+        "value": "minorRepairs",
+        "label": "Needs some minor cosmetic repairs"
+      },
+      {
+        "value": "needsRemodel",
+        "label": "Needs some remodel"
+      },
+      {
+        "value": "needsOverhaul",
+        "label": "Needs complete remodel"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question_type": "multiple_choice",
+    "key": "locationRating",
+    "path": null,
+    "label": "How would you rate the location of your home compared to that of your neighbors?",
+    "tip": "Tip: Being near major streets or highways, having a large driveway or yard, or being near neighborhood parks are some factors to consider when rating your home’s location. ",
+    "choices":[
+      {
+        "value": "best",
+        "label": "Best lot on the block, both in size and location"
+      },
+      {
+        "value": "average",
+        "label": "Average lot location and size"
+      },
+      {
+        "value": "undesirable",
+        "label": "Not a desirable lot or size"
+      }
+    ]
+  }
+]

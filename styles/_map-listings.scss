@@ -1,0 +1,75 @@
+@mixin position ($value) {
+  left: $value;
+  width: 50%;
+  top: 62px;
+  padding: 0px;
+}
+.home-map-position{
+  position: fixed;
+  width: 50%;
+  top:133px;
+  padding-right: 0px;
+}
+.position-left{
+  @include position(50%)
+}
+.position-right{
+  @include position(25px)
+}
+
+.home-listings-container{
+  padding-top: 20px;
+  margin-right: 35px;
+  .row{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+.home-row{
+  margin-right: 0px;
+  .google_map_infobox{
+    height: 260px;
+  }
+}
+.map-show-button{
+  text-align: center;
+  .btn{
+    padding: 4px 10px;
+    background-color: #e9e9e9;
+    border: 1px solid rgb(241, 241, 241);
+    color: gray;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .home-map-position{
+    display: none;
+  }
+  .position-left{
+    @include position(0);
+    top: 110px
+  }
+  .home-listings-container{
+    padding-top: 20px;
+    margin-right: 0px;
+    margin-left: 30px;
+    .row{
+      margin-right: 0px;
+      margin-left: 0px;
+      width: 100%;
+    }
+    .feature-homes{
+      margin-top: 20px;
+    }
+  }
+  
+}
+.gm-style-iw-c {
+  background: none !important;
+  box-shadow: none !important;
+}
+.home-new-badge {
+  background-color: white;
+  color: $app-color;
+}

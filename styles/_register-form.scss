@@ -1,0 +1,21 @@
+@import "styled-jsx-helper";
+
+.brand{
+  padding:0 0 20px 0;
+}
+.terms{
+  font-size: 14px;
+  text-align: center;
+}
+h1{
+  margin:0 auto;
+  text-align:center;
+}
+@include media-breakpoint-up(md) {
+  .brand{
+    padding:90px 0 20px 0;
+  }
+h1{
+    margin:40px auto 0 auto;
+  }
+}

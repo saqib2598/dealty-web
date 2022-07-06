@@ -1,0 +1,10 @@
+// This file is meant to be included in <style jsx> blocks and
+// provides access to Bootstrap variables and mixins.
+//
+// Note: If Bootstrap variables or mixins are customized, be sure to update the
+// imports below to point to the customized files instead of node_modules.
+@import "../node_modules/bootstrap/scss/functions";
+@import "bootstrap-custom/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+// @import 'react-date-range/dist/styles.css'; // main style file -custom Date Range
+// @import 'react-date-range/dist/theme/default.css'; // theme css file -custom Date Range

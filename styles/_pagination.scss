@@ -1,0 +1,13 @@
+.hovers{
+  display: block;
+  }
+  .hovers:hover{
+  color: cadetblue;
+  background-image: none;
+  }
+@media only screen and (max-width: 767px)
+  {
+    .sellerPaginationContainer{
+      margin-top: 20px;
+    }
+  }

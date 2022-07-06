@@ -1,0 +1,662 @@
+@mixin heading2 {
+}
+
+.brokerage-detail {
+  text-align: center;
+  .brokerage-name-fields {
+    margin-top: -10px;
+    li {
+      color: black;
+    }
+  }
+  .brokerage-contact-fields {
+    margin-top: 10px;
+    li {
+      color: rgb(87, 87, 87);
+    }
+  }
+  .contact-builder-btn {
+    height: 50px;
+    background: #1998a9a9;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    max-width: 270px;
+    &:hover {
+      background: #1999a9;
+    }
+  }
+}
+
+.property-detail {
+  p {
+    text-align: left;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .social-panel-area {
+    padding: 20px 0;
+    border-bottom: #cccccc 1px solid;
+  }
+  .address-holder {
+    display: flex;
+    align-items: flex-start;
+    img {
+      margin-right: 12px;
+    }
+    .address_info {
+      h5 {
+        color: #333333;
+        font-size: 20px;
+        line-height: 24px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        margin: 0;
+      }
+      p {
+        font-size: 14px;
+        line-height: 27px;
+        font-family: "Montserrat", sans-serif;
+        color: #333333;
+        font-weight: 400;
+        margin: 0;
+      }
+    }
+  }
+  .price {
+    min-width: 127px;
+    height: 37px;
+    text-align: left;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 30px;
+    background: #1999a9 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    padding: 0 18px;
+    display: table;
+    strong {
+      font-size: 40px;
+      margin-right: 24px;
+      line-height: 37px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    span {
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+  .status {
+    min-width: 127px;
+    height: 37px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 40px;
+    background: #1999a9 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    padding: 0 18px;
+    display: table;
+  }
+  .social_icons {
+    display: flex;
+    justify-content: flex-end;
+    li {
+      margin-right: 16px;
+      a {
+        background-image: url("/static/images/propertydetail/Twitter.png");
+        width: 29px;
+        height: 32px;
+        display: block;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        &.share_icon {
+          background-image: url("/static/images/propertydetail/share.png");
+        }
+        &.facebook {
+          background-image: url("/static/images/propertydetail/facebook.png");
+        }
+        &.whatsapp {
+          background-image: url("/static/images/propertydetail/whatsapp.png");
+        }
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  .property-info-list {
+    margin: 16px 0 0;
+    padding: 0 0 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #333333;
+    font-size: 14px;
+    line-height: 19px;
+    li {
+      margin-right: 20px;
+      img {
+        margin-right: 10px;
+        width: 15px;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  .proprerty-features-block {
+    padding: 15px 0 0;
+    h2 {
+      text-align: left;
+      color: #333333;
+      font-size: 20px;
+      line-height: 27px;
+      margin-top: 23px;
+      font-weight: 700;
+      text-transform: uppercase;
+      border-bottom: black 2px solid;
+      font-family: "Montserrat", sans-serif;
+    }
+    h3 {
+      text-align: left;
+      color: #1999a9;
+      font-size: 17px;
+      line-height: 21px;
+      margin-top: 10px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    #listing-info {
+      margin-top: -5px;
+    }
+    .features-info {
+      display: flex;
+      flex-direction: column;
+      color: #333333;
+      font-size: 14px;
+      line-height: 13px;
+      #active-text{
+        text-transform: capitalize;
+        margin-bottom: 7px;
+      }
+      li {
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 15px;
+        font-size: 15px;
+        p {
+          margin: 0px;
+          vertical-align: text-bottom;
+        }
+        img {
+          margin-right: 10px;
+          width: 15px;
+        }
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+  .two-columns {
+    padding-top: 40px;
+    margin: 0 0 20px;
+    border-bottom: #cccccc 1px solid;
+    padding-bottom: 30px;
+  }
+  .slider {
+    margin: 0 0 25px;
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+  .description-block {
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "Montserrat", sans-serif;
+    color: #000000;
+    min-height: 200px;
+    h2 {
+      text-align: left;
+      color: #333333;
+      font-size: 20px;
+      line-height: 27px;
+      margin-top: 23px;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-family: "Montserrat", sans-serif;
+    }
+    .disclaimer-box {
+      margin-bottom: 30px;
+      margin-top: 5px;
+      padding: 5px;
+      border: 1px solid rgb(182, 182, 182);
+      border-radius: 8px;
+      background: rgb(228, 228, 228);
+      img {
+        width: 50px;
+      }
+      .disclaimer-text {
+        line-height: 15px;
+        font-size: 12px;
+        margin-bottom: 0px;
+      }
+    }
+  }
+  .meeting-schedule {
+    .meeting-list {
+      li {
+        margin-bottom: -20px;
+      }
+    }
+    .meeting-box {
+      font: 14px/17px "Montserrat", sans-serif;
+      color: #4d4d4d;
+      margin: 0 0 60px;
+      h3 {
+        text-align: left;
+        color: #1999a9;
+        font-size: 17px;
+        line-height: 21px;
+        margin-top: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      p {
+        margin: 0 0 25px;
+      }
+      .btn-meeting {
+        height: 45px;
+        font: 15px/19px "Montserrat", sans-serif;
+        border: none;
+        padding: 10px 15px;
+        background: #1998a9a9;
+        border-radius: 8px;
+        color: #ffffff;
+        font-size: 15px;
+        margin-top: -10px;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        &:hover {
+          background: #1999a9;
+        }
+      }
+    }
+  }
+
+  .builder-info-block {
+    background: #e6e6e6;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    .builder-image {
+      width: 80px;
+      height: 80px;
+      border-radius: 100%;
+      margin: 0 auto 10px;
+      overflow: hidden;
+      .user-image {
+        height: 80px;
+        width: 80px;
+      }
+    }
+    .builder-icon {
+      width: 50px;
+      height: 50px;
+    }
+    .bulider-info {
+      strong {
+        text-align: center;
+        color: #1999a9;
+        font-size: 16px;
+        display: block;
+        width: fit-content;
+        line-height: 19px;
+        margin: auto;
+        &:hover {
+          color: $primary;
+        }
+      }
+      p {
+        text-align: center;
+        color: #000000;
+        margin: 0 0 15px;
+      }
+      .broker-name {
+        width: auto;
+        color: black;
+        font-size: 20px;
+        text-transform: uppercase;
+      }
+    }
+
+    .bulider-detail {
+      font-size: 14px;
+      line-height: 19px;
+      font-family: "Montserrat", sans-serif;
+      color: #808080;
+      img {
+        width: 123px;
+        margin: 0 0 20px;
+      }
+      h4 {
+        color: #333333;
+        font-size: 18px;
+        line-height: 21px;
+        font-family: "Montserrat", sans-serif;
+      }
+    }
+  }
+  .mls-data-container {
+    margin-bottom: 20px;
+  }
+
+  .overview-block {
+    padding: 0 30px 0 0;
+    h3 {
+      font-size: 18px;
+      line-height: 23px;
+      font-family: "Montserrat", sans-serif;
+      color: #333333;
+      margin: 0 0 20px;
+      padding-left: 35px;
+    }
+    .overview-list {
+      color: #4d4d4d;
+      font-size: 14px;
+      line-height: 17px;
+      font-family: "Montserrat", sans-serif;
+      li {
+        margin: 0 0 8px;
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+  .m-b-0 {
+    margin-bottom: 0 !important;
+  }
+
+  .price-history-block {
+    h2 {
+      text-align: left;
+      color: #333333;
+      font-size: 20px;
+      line-height: 27px;
+      margin-top: 23px;
+      font-weight: 700;
+      text-transform: uppercase;
+      border-bottom: black 2px solid;
+      font-family: "Montserrat", sans-serif;
+    }
+    .price-list {
+      font: 14px/19px "Montserrat", sans-serif;
+      color: #666666;
+      li {
+        margin-bottom: 12px;
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  .map-block {
+    h2 {
+      font: 18px/21px "Montserrat", sans-serif;
+      color: #333333;
+      margin: 0 0 15px;
+      font-weight: 900;
+    }
+    .btn-direction {
+      height: 45px;
+      width: 126px;
+      display: block;
+      background: #1999a9;
+      border-radius: 8px;
+      color: #ffffff;
+      font: 16px/21px "Montserrat", sans-serif;
+      margin: 12px auto;
+      border: none;
+    }
+    .map-frame {
+      height: 277px;
+      background: #ccc;
+    }
+  }
+
+  .price-table {
+    .btn-secondary {
+      background-color: $white;
+      border-color: none;
+      color: $grey-650;
+    }
+    .btn {
+      font-weight: 100;
+      border: none;
+    }
+    th {
+      white-space: nowrap;
+      border-bottom: $brand-light dashed 1px;
+    }
+    th,
+    td {
+      padding: 1.5rem;
+      border-bottom: $brand-light dashed 1px;
+    }
+    thead {
+      th {
+        font-size: 14px;
+        color: $price-table-heading;
+      }
+    }
+    tbody {
+      td {
+        font-size: 16px;
+        color: $grey-650;
+      }
+    }
+  }
+}
+@media (max-width: 1440px) {
+  .property-detail {
+    .properties_list {
+      li {
+        .property-box {
+          border-radius: 35px;
+          .head {
+            padding: 13px 25px 10px 21px;
+
+            h3 {
+              margin: 0;
+              color: #ffffff;
+              font-size: 16px;
+              line-height: 19px;
+            }
+            img {
+              width: 32px;
+            }
+          }
+          .property-image {
+            height: 237px;
+          }
+          .property_caption {
+            height: 229px;
+            padding: 174px 10px 11px 15px;
+            font-size: 14px;
+            line-height: 17px;
+          }
+          .proerty_text {
+            padding: 10px 5px 10px 15px;
+            .property-info-holder {
+              margin: 0 0 7px;
+              justify-content: space-between;
+              .price {
+                color: #000000;
+                font-size: 20px;
+                line-height: 31px;
+              }
+              .property_info {
+                align-items: center;
+                li {
+                  font-size: 10px;
+                  line-height: 14px;
+                  padding: 0 6px;
+                  &:last-child {
+                    border-right: none;
+                  }
+                  p {
+                    margin: 0;
+                  }
+                }
+              }
+            }
+            .address-holder {
+              display: flex;
+              align-items: flex-start;
+              img {
+                margin-right: 12px;
+                width: 22px;
+              }
+              .address_info {
+                h5 {
+                  font-size: 18px;
+                  line-height: 21px;
+                  margin: 0;
+                }
+                p {
+                  font-size: 14px;
+                  line-height: 17px;
+                  margin: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1040px) {
+  .property-detail {
+    .properties_list {
+      li {
+        padding-right: 15px;
+        padding-left: 15px;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-bottom: 20px;
+        .property-box {
+          .head {
+            padding: 13px 25px 10px 21px;
+          }
+          .property-image {
+            height: auto;
+          }
+          .property_caption {
+            height: auto;
+            padding: 140px 10px 10px 10px;
+            font-size: 13px;
+            line-height: 16px;
+          }
+          .proerty_text {
+            padding: 10px 10px 10px 10px;
+            .property-info-holder {
+              .price {
+                font-size: 18px;
+                line-height: 23px;
+              }
+              .property_info {
+                li {
+                  font-size: 9px;
+                  line-height: 14px;
+                  flex: inherit;
+                  max-width: auto;
+                  padding-right: 6px;
+                  padding-left: 6px;
+                  margin-bottom: 0;
+                }
+              }
+            }
+            .address-holder {
+              img {
+                width: 22px;
+              }
+              .address_info {
+                h5 {
+                  font-size: 16px;
+                  line-height: 19px;
+                }
+                p {
+                  font-size: 13px;
+                  line-height: 17px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .property-detail {
+    .properties_list {
+      li {
+        padding-right: 15px;
+        padding-left: 15px;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+        .property-box {
+          .property-image {
+            height: auto;
+            img {
+              width: 100%;
+            }
+          }
+          .property_caption {
+            height: auto;
+            padding: 140px 10px 10px 10px;
+            background-size: cover;
+          }
+          .proerty_text {
+            padding: 10px 10px 10px 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.bbb {
+  a:hover {
+    color: blue;
+  }
+  a:link {
+    color: green;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .property-detail .builder-info-block .bulider-detail .contact-builder-btn {
+    font-size: 12px;
+  }
+}

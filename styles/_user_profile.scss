@@ -1,0 +1,25 @@
+.user-profile {
+  .image-holder {
+    .img-thumb {
+      background-repeat: no-repeat;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-position: center center;
+      background-size: cover;
+      display:block;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    .image-holder {
+      padding: 0px 85px;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .image-holder {
+      padding: 0px 130px;
+    }
+  }
+}
+  

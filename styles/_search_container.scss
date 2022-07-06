@@ -1,0 +1,91 @@
+$lightGreyColor: rgb(246, 246, 246);
+$greyColor: rgb(189, 189, 189);
+
+@mixin search-form($mt, $mr, $mb, $ml, $br, $height, $input-top, $form-height, $form-margin){
+	display: flex;
+	flex-direction: row;
+	background: #fff;
+	border-radius: $br;
+	height: $height;
+	border: 1px solid $greyColor;
+	background: $lightGreyColor;
+	margin: $mt $mr $mb $ml;
+	width: 100%;
+	border: 1px solid rgb(182, 182, 182);
+	.form-group{
+		flex: 90%
+	}
+	.search-icon{
+		flex: 0%;
+		background: #09c4ce;
+		border: none;
+	}
+	.address-adapter{
+		height: 0px;
+		margin-top: $input-top;
+	}
+	input{
+		border: none;
+		background: none;
+	}
+	.focus-visible{
+		background: none !important;
+		border: none !important;
+		box-shadow: none !important;	
+	}
+	.autocomplete-dropdown-container{
+		width:initial !important;
+		border-radius: 10px;
+	}
+	.form-control{
+		height: $form-height;
+		margin-top: $form-margin;
+	}
+	.search-icon-small{
+		margin: 2px -7px 5px 9px;
+	}
+} 
+
+.search-container{
+	@include search-form(0, auto, 0, auto, 10px, 65px, -20px, 57px, 0px)
+}
+
+.search-container-small{
+	@include search-form(16px, 0, 0, 20px, 6px, 33px, 0px, 0px, -25px)
+}
+
+.search__title {
+	font-size: 2.5rem;
+}
+
+
+@media screen and (max-width: 700px) {
+	.search-container-small{
+		@include search-form(16px, 0, 0, 0px, 6px, 33px, 0px, 0px, -25px)
+	}
+}
+
+@include media-breakpoint-up(md) {
+	.top-banner-search {
+		width: 725px;
+		margin: 0 auto;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+	}
+}
+
+@include media-breakpoint-down(md) {
+	.search__title {
+		padding: 0px;
+		font-size: 2.25rem;
+	}
+}
+
+@include media-breakpoint-up(lg) {
+	.top-banner-search {
+		width: 780px;
+	}
+}

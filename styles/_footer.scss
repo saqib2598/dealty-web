@@ -1,0 +1,380 @@
+#footer {
+  .footer-inner {
+    background: #1999a9;
+    display: flex;
+    width: 100%;
+    padding: 80px 0 84px;
+    button{
+      margin: 5px 15px 0px 0px;
+      padding: 8px 18px;
+    }
+    .footer_widget {
+      color: #ffffff;
+      font-size: 22px;
+      line-height: 25px;
+      .footer_logo {
+        display: block;
+        margin: 0 0 13px;
+        width: 200px;
+        height: 80px;
+      }
+      p {
+        margin: 0 0 40px;
+      }
+    }
+    h3 {
+      font-size: 24px;
+      line-height: 30px;
+      margin: 0 0 25px;
+      color: #fff;
+      font-weight: bold;
+    }
+    .footer_link {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-size: 20px;
+      line-height: 30px;
+      li {
+        margin: 0 0 3px;
+        a {
+          color: #ffffff;
+          text-decoration: none;
+        }
+      }
+      &.footer_pages {
+        li {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+  .footer_bottom {
+    background: #ffffff;
+    padding: 47px 0 18px;
+    .dealty-llc{
+      font-size: 14px;
+      line-height: 14px;
+      color: gray;
+    }
+    span {
+      color: #1999a9;
+      font-size: 22px;
+      line-height: 32px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .logo_D {
+      margin-right: 47px;
+      display: inline-block;
+      vertical-align: middle;
+      img {
+        display: block;
+        width: 6px;
+        height: 25px;
+      }
+    }
+    .social_network {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      li {
+        margin: 0 40px 0 0;
+        &:last-child {
+          margin-right: 0;
+        }
+        a {
+          background-image: url('/static/images/location-images/social_icon4.svg');
+          width: 40px;
+          height: 40px;
+          display: block;
+          background-size: 100%;
+          text-indent: -9999px;
+          background-repeat: no-repeat;
+          text-decoration: none;
+          &.linkedin {
+            background-image: url('/static/images/location-images/social_icon1.svg');
+          }
+          &.twitter {
+            background-image: url('/static/images/location-images/social_icon3.svg');
+          }
+          &.instagram {
+            background-image: url('/static/images/location-images/social_icon2.svg');
+          }
+          &.facebook {
+            background-image: url('/static/images/location-images/social_icon5.svg');
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 2560px) {
+  #footer {
+    .footer-inner {
+      background: #1999a9;
+      display: flex;
+      width: 100%;
+      padding: 80px 0 84px;
+      .footer_widget {
+        color: #ffffff;
+        font-size: 22px;
+        line-height: 25px;
+        .footer_logo {
+          display: block;
+          margin: 0 0 13px;
+          width: 200px;
+          height: 80px;
+        }
+        p {
+          margin: 0 0 40px;
+        }
+      }
+      h3 {
+        font-size: 24px;
+        line-height: 30px;
+        margin: 0 0 25px;
+        color: #fff;
+        font-weight: bold;
+      }
+      .footer_link {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-size: 20px;
+        line-height: 30px;
+        li {
+          margin: 0 0 3px;
+          a {
+            color: #ffffff;
+            text-decoration: none;
+
+          }
+        }
+        &.footer_pages {
+          li {
+            margin-bottom: 30px;
+          }
+        }
+      }
+    }
+    .footer_bottom {
+      background: #ffffff;
+      padding: 47px 0 18px;
+      span {
+        color: #1999a9;
+        font-size: 22px;
+        line-height: 32px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .logo_D {
+        margin-right: 47px;
+        display: inline-block;
+        vertical-align: middle;
+        img {
+          display: block;
+          width: 46px;
+          height: 51px;
+        }
+      }
+      .social_network {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        li {
+          margin: 0 40px 0 0;
+          &:last-child {
+            margin-right: 0;
+          }
+          a {
+            background-image: url('/static/images/location-images/social_icon4.svg');
+            width: 40px;
+            height: 40px;
+            display: block;
+            background-size: 100%;
+            text-indent: -9999px;
+            background-repeat: no-repeat;
+            text-decoration: none;
+            &.linkedin {
+              background-image: url('/static/images/location-images/social_icon1.svg');
+            }
+            &.twitter {
+              background-image: url('/static/images/location-images/social_icon3.svg');
+            }
+            &.instagram {
+              background-image: url('/static/images/location-images/social_icon2.svg');
+            }
+            &.facebook {
+              background-image: url('/static/images/location-images/social_icon5.svg');
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  #footer {
+    .footer-inner {
+      display: flex;
+      width: 100%;
+      padding: 80px 0 84px;
+      .footer_widget {
+        font-size: 22px;
+        line-height: 25px;
+        .footer_logo {
+          margin: 0 0 13px;
+          width: 120px;
+          height: 60px;
+        }
+        p {
+          margin: 0 0 40px;
+        }
+      }
+      h3 {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0 0 25px;
+      }
+      .footer_link {
+        font-size: 18px;
+        line-height: 21px;
+        li {
+          margin: 0 0 13px;
+          a {
+            text-decoration: none;
+            &:hover {
+              color:#dddada;
+          }
+          }
+        }
+        &.footer_pages {
+          li {
+            margin-bottom: 40px;
+          }
+        }
+      }
+    }
+    .footer_bottom {
+      padding: 28px 0 15px;
+      span {
+        font-size: 18px;
+        line-height: 24px;
+      }
+      .logo_D {
+        margin-right: 20px;
+        img {
+          width: 40px;
+          height: 40px;
+        }
+      }
+      .social_network {
+        display: flex;
+        justify-content: flex-end;
+        li {
+          margin: 0 20px 0 0;
+          a {
+            width: 40px;
+            height: 40px;
+            background-size: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #footer {
+    .footer_bottom {
+      .social_network {
+        li {
+          margin: 0 20px 0 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  #footer {
+    .footer-inner {
+      display: flex;
+      width: 100%;
+      padding: 60px 0 60px;
+      .footer_widget {
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 40px;
+        .footer_logo {
+          margin: 0 0 13px;
+          width: 186px;
+          height: 60px;
+        }
+        p {
+          margin: 0 0 20px;
+        }
+      }
+      h3 {
+        font-size: 18px;
+        line-height: 19px;
+        margin: 0 0 20px;
+      }
+      .footer_link {
+        font-size: 14px;
+        line-height: 17px;
+        li {
+          margin: 0 0 13px;
+          a {
+            text-decoration: none;
+          }
+        }
+        &.footer_pages {
+          display: flex;
+          margin: 20px 0;
+          li {
+            margin-bottom: 0;
+            padding-right: 20px;
+          }
+        }
+      }
+    }
+    .footer_bottom {
+      padding: 28px 0 15px;
+      .row {
+        display: flex;
+        flex-flow: column-reverse;
+      }
+      span {
+        font-size: 15px;
+        line-height: 17px;
+      }
+      .logo_D {
+        margin-right: 20px;
+        img {
+          width: 46px;
+          height: 51px;
+        }
+      }
+      .social_network {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        li {
+          margin: 0 0 0 0;
+
+          a {
+            width: 40px;
+            height: 40px;
+            background-size: 100%;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+.reorder {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+  button[editext="cancel-button"], button[editext="save-button"], button[editext="edit-button"] {
+    padding: 0px;
+    font-size: 10px;
+    min-width: fit-content;
+    border: none;
+    background: transparent;
+  }
+
+  div[editext="view-container"] {
+    padding: 0px;
+    font-size: 10px;
+    min-width: fit-content;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+  }
+
+  div[editext="edit-container"] > input[editext="input"] { 
+    padding: 0px;
+    line-height: initial;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    font-size: 10px;
+    margin-top: 6px;
+  }
+  .img-position{
+    text-align: center;
+    font-size: larger;
+  }
+  .delete-icon{
+    position: absolute;
+    margin-top: -121px;
+    margin-left: 70%;
+    cursor: pointer;
+    color: red;
+  }
+  .rotation-menu{
+    position: absolute;
+    margin-top: -25px;
+    width: 100%;
+    .fa-icon-background{
+      border-radius: 50%;
+      width: 22px;
+      height: 24px;
+      background: #007793;
+      color: white;
+      margin: auto;
+      text-align: center;
+      
+      .fa-icon{
+        width: 0.8em !important;
+        margin-top: 5px;
+        cursor: pointer;
+      }
+    }
+    .position-left{
+      position: absolute;
+      left: 15px;
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .reorder .delete-icon {
+    margin-left: 65%;
+  }
+}

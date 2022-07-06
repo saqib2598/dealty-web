@@ -1,0 +1,17 @@
+.account-bar {
+  text-align: center;
+
+  .active {
+    color: black;
+  }
+
+  section {
+    display: block;
+    color: grey;
+    cursor: pointer;
+
+    &:hover {
+      color: black;
+    }
+  }
+}

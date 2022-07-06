@@ -1,0 +1,34 @@
+.plan {
+  width: 100%;
+  text-align: center;
+  padding: 0px 10px;
+  list-style-type: none;
+  border: 1px solid #eee;
+  transition: 0.3s;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.1);
+  background: white;
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  button {
+    margin-bottom: 1rem;
+  }
+
+  .header {
+    margin-top :10px;
+    margin-bottom :10px;
+    margin-left: 0px;
+    font-size: 25px;
+    color: black;
+  }
+
+  .price{
+    color: #232333;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0px;
+  }
+}

@@ -1,0 +1,125 @@
+.calculator-resource {
+  .calculator-image {
+    color: white;
+    background: url('/static/images/resources/background-calculator.png');
+    background-size: cover;
+    height: 345px;
+    text-align: center;
+    .heading {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 6em;
+      line-height: 276px;
+      text-align: center;
+      text-transform: capitalize;
+    }
+  }
+  .calulator-wrapper {
+    .calculator {
+      margin-top: 6%;
+      button {
+        display: block;
+        width: 100%;
+        color: #fff;
+        background-color: #007793;
+        border-color: #007793;
+        font-weight: 700;
+        text-align: center;
+        white-space: nowrap;
+        user-select: none;
+        border: 1px solid transparent;
+        padding: 0.75rem 1rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+
+      .calculator-column {
+        margin-right: 108px;
+        &:nth-child(1) {
+          div {
+            border: none;
+          }
+        }
+      }
+      > div {
+        font-family: sans-serif;
+        border: none;
+        label {
+          display: inline-block;
+          margin-bottom: 0.3rem;
+          color: black;
+          font-family: sans-serif;
+        }
+        a {
+          display: none;
+        }
+        input {
+          display: block;
+          border-radius: 6px;
+          border: 2px solid #1999a9;
+          &:focus {
+            color: #1b2629;
+            background-color: #fff;
+            border-color: #5df1f8;
+            outline: 0;
+            box-shadow: 0 0 0 1px #09c3cc;
+          }
+        }
+      }
+    }
+  }
+  .estimate {
+    background-color: #1999a9;
+    text-align: center;
+    border-radius: 20px;
+    max-width: 29%;
+    padding-bottom: 50px;
+    height: fit-content;
+    .content-box {
+      width: 88%;
+      margin: auto;
+    }
+    .heading {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 45.8361px;
+      line-height: 63px;
+      text-align: center;
+      text-transform: capitalize;
+    }
+  }
+}
+
+@media screen and (max-device-width: 760px) {
+  .calculator-resource {
+    .calculator-image {
+      height: 93px;
+      .heading {
+        font-size: 3rem;
+        line-height: 42px;
+      }
+    }
+    .calulator-wrapper {
+      .calculator {
+        flex-direction: column-reverse;
+        .calculator-column {
+          margin-right: 25px;
+        }
+      }
+    }
+    .estimate {
+      max-width: 83%;
+      margin: auto;
+      margin-left: 33px;
+      margin-top: 25px;
+      .heading {
+        font-size: 29.8361px;
+        line-height: 40px;
+      }
+    }
+  }
+}

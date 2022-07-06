@@ -1,0 +1,146 @@
+@media (max-width:1920px) {
+  .locationDeatail {
+    padding: 100px 0 156px;
+    h1 {
+      background: #09C4CE;
+      width: 531.27px;
+      height: 107.93px;
+      color: #FFFFFF;
+      font-size: 50px;
+      line-height: 60px;
+      margin: 0 0 40px;
+      font-weight: 600;
+      font-family: 'Montserrat', sans-serif;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 40px;
+    }
+    h3 {
+      background: #09C4CE;
+      min-width: 368px;
+      height: 72px;
+      color: #FFFFFF;
+      font-size: 36px;
+      line-height: 72px;
+      margin: 0 0 40px;
+      font-weight: 600;
+      font-family: 'Montserrat', sans-serif;
+      border-radius: 12px;
+      text-align: center;
+      display: inline-block;
+    }
+    .place_list {
+      margin: 0 0 70px;
+      padding: 0 0 0 70px;
+      list-style: none;
+      text-align: left;
+      letter-spacing: 0px;
+      opacity: 1;
+      font-size: 36px;
+      line-height: 42px;
+      li {
+        margin: 0 0 30px;
+        a {
+          color: #999999;
+        }
+      }
+    }
+    .search_text {
+      font-size: 36px;
+      line-height: 43px;
+      color: #999999;
+      h4 {
+        font-weight: 600;
+        color: #333333;
+        margin: 0 0 30px;
+      }
+    }
+  }
+
+}
+@media (max-width:1420px) {
+  .locationDeatail {
+    padding: 75px 0 75px;
+    h1 {
+      background: #09C4CE;
+      width: 431.27px;
+      height: 90px;
+      color: #FFFFFF;
+      font-size: 34px;
+      line-height: 42px;
+      font-weight: 600;
+      font-family: 'Montserrat', sans-serif;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 60px;
+    }
+    h3 {
+      background: #09C4CE;
+      min-width:250px;
+      height: 72px;
+      color: #FFFFFF;
+      font-size: 24px;
+      line-height: 72px;
+      margin: 0 0 40px;
+      font-weight: 600;
+      font-family: 'Montserrat', sans-serif;
+      border-radius: 12px;
+      text-align: center;
+      display: inline-block;
+    }
+    .place_list {
+      padding: 0 0 0 86px;
+      list-style: none;
+      text-align: left;
+      opacity: 1;
+      font-size: 24px;
+      line-height: 35px;
+      li {
+        margin: 0 0 20px;
+        a {
+          color: #999999;
+        }
+      }
+    }
+    .search_text {
+      font-size: 24px;
+      line-height: 33px;
+      h4 {
+        margin: 0 0 15px;
+      }
+    }
+  }
+
+}
+@media (max-width:767px) {
+  .locationDeatail {
+    h1 {
+      width: 100%;
+      font-size: 24px;
+      line-height: 33px;
+    }
+    h3 {
+      min-width: 238px;
+      height: 70px;
+      color: #FFFFFF;
+      font-size: 20px;
+      line-height: 70px;
+
+    }
+    .place_list {
+      margin: 0 0 20px;
+      padding: 0;
+    }
+    .search_text {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+}
+.search_form_width {
+  width: 45%;
+}

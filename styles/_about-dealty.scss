@@ -1,0 +1,77 @@
+@mixin divider($margin) {
+  hr {
+    width: 80%;
+    margin: $margin auto;
+  }
+}
+
+.about-us {
+  width: 100%;
+  margin-top: 30px;
+}
+.aboutus-container {
+  width: 80%;
+  margin: 0 auto;
+  @include divider(70px);
+  .core-values {
+    width: 80%;
+    margin: 0px auto;
+    padding-bottom: 90px;
+  }
+}
+
+.core-values-font {
+  font-family: 'Nunito', sans-serif;
+  font-size: large;
+}
+
+.about-dealty-wrapper {
+  background: $background-grey-color;
+  padding: 30px;
+  padding-bottom: 20px;
+  border-radius: $border-radius-xl;
+  font-family: 'Nunito', sans-serif;
+}
+
+.beach-house {
+  color: white;
+  position: relative;
+  text-align: center;
+  background-image: url('/static/images/about-dealty/beach-house.jpg');
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: 100% 100%;
+  background-attachment: local;
+  height: 500px;
+}
+
+.centered {
+  font-family: 'Nunito', sans-serif;
+  font-size: 4rem;
+  position: relative;
+  top: 45%;
+}
+
+.headings {
+  font-size: 40px;
+}
+
+.responsive-img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .aboutus-container {
+    @include divider(20px);
+  }
+  .headings {
+    font-size: 20px;
+  }
+  .centered {
+    font-size: 2rem;
+  }
+  .beach-house {
+    height: 140px;
+  }
+}

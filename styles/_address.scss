@@ -1,0 +1,11 @@
+.address-adapter{
+  :global(#PlacesAutocomplete__autocomplete-container){
+    z-index: 1000 ;
+  }
+  :global(.address-adapter .invalid-feedback){
+    display:block !important;
+  }
+  :global(#PlacesAutocomplete__root input::placeholder){
+    color: #aaa
+  }
+}

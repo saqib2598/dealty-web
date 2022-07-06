@@ -1,0 +1,110 @@
+@import "styled-jsx-helper";
+
+.map-list {
+  .main-white {
+    padding-top: 120px;
+    .penal-wrap {
+      position: relative;
+      z-index: 1000;
+    }
+  }
+}
+.contact-detail, .send-offer, .prequalified, .send-appointment{
+  padding: 25px;
+
+  .img-thumb
+  {
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0px auto;
+    background-position: center center;
+    background-size: cover;
+    display:block;
+  }
+  .user-icon{
+    width:80px;
+    height:80px;
+  }
+  .contact-button{
+    font-size:15px;
+    background-color: #0F8B96;
+    border-radius: 0px;
+    border-color: #0F8B96;
+
+  }
+  .contact{
+    &__homeowner{
+      font-size: $lead-font-size;
+      color: '$title-light-color';
+    }
+    &__name{
+      font-size: $lead-font-size;
+      color: #0F8B96;
+      text-align: center;
+    }
+    &__message{
+      font-size: 17px;
+    }
+    &__info{
+      font-size: 16px;
+      font-family: italian;
+    }
+    &__agent{
+      text-align: center;
+    }
+    &__icon{
+      margin-bottom:15px;
+      display: inline-block;
+    }
+  }
+  @include media-breakpoint-down(sm){.contact-detail
+    .contact-detail{
+      border-radius:0px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .contact-button{
+      margin-left:0px;
+    }
+    .user-icon{
+      padding: 10px;
+    }
+  }
+  @media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px) {
+      .user-icon{
+        width:60px;
+        height:60px;
+      }
+    }
+}
+.contact-detail {
+  background-color: $gray-400;
+}
+
+.send-offer, .prequalified, .send-appointment {
+  background-color: $white;
+  border-radius: $border-radius;
+  .contact{
+    &__img{
+      width:55px;
+    }
+    @media only screen and (max-width: 768px) {
+      /* For mobile phones: */
+      &__info{
+        margin-left:0px
+      }
+    }
+    @media only screen
+      and (min-device-width : 768px)
+      and (max-device-width : 1024px) {
+        &__info{
+          margin-left:0px
+        }
+      }
+  }
+}

@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "question_type": "multiple_choice",
+    "key": "buildingType",
+    "path": null,
+    "label": "What type of property?",
+    "choices":[
+      {
+        "value": "singleFamilyHome",
+        "label": "Single Family Home"
+      },
+      {
+        "value": "condo",
+        "label": "Condo"
+      },
+      {
+        "value": "townhouse",
+        "label": "Townhouse"
+      },
+      {
+        "value": "multiFamily",
+        "label": "Multi Family"
+      },
+      {
+        "value": "land",
+        "label": "Land"
+      },
+      {
+        "value": "quartz",
+        "label": "Manufactured Home"
+      },
+      {
+        "value": "other",
+        "label": "Other"
+      },
+      {
+        "value": "newBuild",
+        "label": "New Build"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question_type": "open",
+    "key": "parcelSize",
+    "path": "size",
+    "label": "What is the size of Parcel in Square feet?"
+  },
+  {
+    "id": 3,
+    "question_type": "open",
+    "key": "zoningType",
+    "path": null,
+    "label": "What is Zoning type?"
+  },
+  {
+    "id": 4,
+    "question_type": "open",
+    "key": "size",
+    "path": "size",
+    "label": "What is the square footage of your home?"
+  },
+  {
+    "id": 5,
+    "question_type": "open",
+    "key": "beds",
+    "path": "beds",
+    "label": "How many bedrooms does your home have? "
+  },
+  {
+    "id": 6,
+    "question_type": "open",
+    "key": "baths",
+    "path": "baths",
+    "label": "How many bathrooms does your home have?"
+  },
+  {
+    "id": 7,
+    "question_type": "open",
+    "key": "lotSize",
+    "path": "lotSize",
+    "label": "What is lot size in sqft?"
+  },
+  {
+    "id": 8,
+    "question_type": "select",
+    "key": "yearbuilt",
+    "path": "yearbuilt",
+    "label": "What year was your home built?"
+  },
+  {
+    "id": 9,
+    "question_type": "open",
+    "key": "prkgSpaces",
+    "path": "prkgSpaces",
+    "label": "How many garage spaces does your home have?"
+  },
+  {
+    "id": 10,
+    "question_type": "open",
+    "key": "homeownerAssociation",
+    "path": "homeownerAssociation",
+    "label": "Homeowner's Association?"
+  },
+  {
+    "id":11,
+    "question_type": "open",
+    "key": "monthlyCost",
+    "path": "monthlyCost",
+    "label": "What is Monthly Cost for Homeowner's Association?"
+  },
+  {
+    "id": 12,
+    "question_type": "open",
+    "key": "pooltype",
+    "path": "pooltype",
+    "label": "What is the type of your Pool?"
+  }
+]

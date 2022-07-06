@@ -1,0 +1,93 @@
+.pricing.table  {
+  width: 49.99%;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  thead {
+    th {
+      background-color: #007793;
+      color: white;
+      text-align: center;
+      padding: 12px;
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+  .btn-secondary{
+    background-color: #007793;
+    width: 50px;
+    color: #fff;
+    border-width: solid 2px;
+    border-radius: 0;
+    line-height: 24px;
+    padding: 4px;
+    border-top-color: rgb(0, 119, 147);
+    border-right-color: rgb(0, 119, 147);
+    border-bottom-color: rgb(0, 119, 147);
+    border-left-color: rgb(0, 119, 147)
+  }
+  tbody tr {
+    th {
+      text-align: left;
+      font-family: nunito;
+      font-weight: normal;
+      border-top: none;
+      padding: 12px;
+      p {
+        margin: 0;
+        font-size: 14px;
+        color: black;
+        font-weight: normal;
+        }
+    }
+    td {
+      text-align: center;
+      padding: 12px;
+      text-align: center;
+      font-size: 14px;
+      color: black;
+      font-family: nunito;
+      border-top: none;
+      font-weight: normal;
+    }
+    text-indent: center;
+    &:nth-of-type(even) {
+      background-color: #EEEEEE;
+      border-top: none;
+      border-bottom: none;
+    }
+    &:nth-of-type(odd) {
+      background-color: #fff;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .pricing.table  {
+    width: 100%;
+    thead {
+      th {
+        font-size: 6px;
+        padding: 8px;
+      }
+    }
+    .btn-secondary{
+      width: 30px;
+      line-height: 12px;
+      font-size: 6px;
+    }
+    tbody tr {
+      th {
+        padding: 8px;
+        p {
+          font-size: 6px;
+          }
+      }
+      td {
+        font-size: 6px;
+        padding: 8px;
+      }
+    }
+  }
+}
+

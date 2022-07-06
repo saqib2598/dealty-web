@@ -1,0 +1,45 @@
+@import "styled-jsx-helper";
+      :global(.modal-content){
+        padding: 25px;
+      }
+      :global(.modal-heading){
+        font-size: 27px;
+        text-align: center;
+        color: $title-light-color;
+        padding-top: 5px;
+        padding-bottom:10px;
+      }
+      :global(.modal-header){
+        border-bottom: none !important;
+        margin-top: -58px;
+        margin-bottom: -20px;
+        margin-right: -54px;
+      }
+      :global(.close){
+        border-radius: 50%;
+      }
+      :global(.icon){
+        text-align: center;
+        padding-top: 35px;
+      }
+      :global(.modal-header .close){
+        padding: 0;
+        margin: 0px;
+        opacity: 1;
+        color: $white;
+        background: $contact-homeowner-model-close;
+        width: 40px;
+        height: 40px;
+        outline: none;
+      }
+      :global(.modal-header .close:hover,
+        .modal-header .close:focus){
+        opacity: 1 !important;
+        color: $white !important;
+      }
+      :global(.modal-header .close span){
+        text-shadow: none;
+      }
+      :global(.user-firstname){
+        color: #1998a9;
+      }

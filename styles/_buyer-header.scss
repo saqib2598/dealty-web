@@ -1,0 +1,8 @@
+@import "styled-jsx-helper";
+
+@include media-breakpoint-up(md) {
+  .horizontal-seprator{
+    color:#eaedef;
+    opacity:0.2;
+  }
+}

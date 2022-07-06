@@ -1,0 +1,18 @@
+image: ruby:2.5.1
+
+stages:
+  - deploy
+
+variables:
+  HEROKU_APP_NAME_STAGING: dealty-web-staging
+
+deploy_staging:
+  stage: deploy
+  script:
+    - gem install dpl
+    - dpl --provider=heroku --app=$HEROKU_APP_NAME_STAGING --api-key=$HEROKU_API_KEY
+  environment:
+    name: staging
+    url: https://$HEROKU_APP_NAME_STAGING.herokuapp.com/
+  only:
+    - master

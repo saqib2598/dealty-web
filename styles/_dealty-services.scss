@@ -1,0 +1,60 @@
+@media (max-width: 2560px) {
+  .tab_box {
+    margin-bottom: 124px;
+    text-align: center;
+    img {
+      display: block;
+      margin: 0 auto 20px;
+    }
+    .tab_textarea {
+      text-align: left;
+      letter-spacing: -1.19px;
+      color: #999999;
+      font-size: 24px;
+      line-height: 34px;
+      .title {
+        text-align: center;
+        letter-spacing: -1.39px;
+        color: #1a1a1a;
+        font-size: 28px;
+        line-height: 33px;
+        min-height: 160px;
+        margin-bottom: 20px;
+        min-height: 68px;
+        display: block;
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .tab_box {
+    margin-bottom: 124px;
+    .tab_textarea {
+      font-size: 18px;
+      line-height: 21px;
+      .title {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 10px;
+        min-height: 47px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .tab_box {
+    margin-bottom: 15px;
+    .tab_textarea {
+      font-size: 13px;
+      line-height: 17px;
+      .title {
+        font-size: 17px;
+        line-height: 21px;
+        margin-bottom: 10px;
+        min-height: 25px;
+      }
+    }
+  }
+}
